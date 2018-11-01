@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BaseTabBarController.h
 //  OCTools
 //
 //  Created by 周 on 2018/10/29.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface BaseTabBarController : UITabBarController
 
 @end
 
+NS_ASSUME_NONNULL_END

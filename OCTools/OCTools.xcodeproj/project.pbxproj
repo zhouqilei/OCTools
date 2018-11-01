@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85D78003C77D1D7FC58D832F /* libPods-OCTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6108B33AF8512E8E33C25C32 /* libPods-OCTools.a */; };
 		CB6F9F642186A6BC00352C60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9F632186A6BC00352C60 /* AppDelegate.m */; };
-		CB6F9F672186A6BC00352C60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9F662186A6BC00352C60 /* ViewController.m */; };
 		CB6F9F6A2186A6BC00352C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F682186A6BC00352C60 /* Main.storyboard */; };
 		CB6F9F6C2186A6C700352C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F6B2186A6C700352C60 /* Assets.xcassets */; };
 		CB6F9F6F2186A6C700352C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F6D2186A6C700352C60 /* LaunchScreen.storyboard */; };
 		CB6F9F722186A6C700352C60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9F712186A6C700352C60 /* main.m */; };
 		CB6F9F7C2186A6C700352C60 /* OCToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9F7B2186A6C700352C60 /* OCToolsTests.m */; };
 		CB6F9F872186A6C700352C60 /* OCToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9F862186A6C700352C60 /* OCToolsUITests.m */; };
+		CB6F9F992186AB2D00352C60 /* UIView+Specification.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9F982186AB2D00352C60 /* UIView+Specification.m */; };
+		CB6F9F9D2186DAE100352C60 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9F9C2186DAE100352C60 /* BaseTabBarController.m */; };
+		CB6F9FA9218831C700352C60 /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FA8218831C700352C60 /* CustomTabBar.m */; };
+		CB6F9FAC218838FE00352C60 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FAB218838FE00352C60 /* BaseNavigationController.m */; };
+		CB6F9FB021884D5200352C60 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FAF21884D5200352C60 /* BaseViewController.m */; };
+		CB6F9FB321894FE500352C60 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FB221894FE500352C60 /* UIImage+Extension.m */; };
+		CB6F9FB62189526800352C60 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FB52189526800352C60 /* UIColor+Extension.m */; };
+		CB6F9FBA218958CD00352C60 /* Item1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FB9218958CD00352C60 /* Item1ViewController.m */; };
+		CB6F9FBD2189592500352C60 /* Item2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FBC2189592500352C60 /* Item2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6108B33AF8512E8E33C25C32 /* libPods-OCTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		682E95383E02A4D49C1BC58B /* Pods-OCTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCTools/Pods-OCTools.debug.xcconfig"; sourceTree = "<group>"; };
+		C1C1B2A14FF4B056BB8CE8C3 /* Pods-OCTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCTools/Pods-OCTools.release.xcconfig"; sourceTree = "<group>"; };
 		CB6F9F5F2186A6BC00352C60 /* OCTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6F9F622186A6BC00352C60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB6F9F632186A6BC00352C60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CB6F9F652186A6BC00352C60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CB6F9F662186A6BC00352C60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CB6F9F692186A6BC00352C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB6F9F6B2186A6C700352C60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB6F9F6E2186A6C700352C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +61,25 @@
 		CB6F9F822186A6C700352C60 /* OCToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6F9F862186A6C700352C60 /* OCToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCToolsUITests.m; sourceTree = "<group>"; };
 		CB6F9F882186A6C700352C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6F9F972186AB2C00352C60 /* UIView+Specification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Specification.h"; sourceTree = "<group>"; };
+		CB6F9F982186AB2D00352C60 /* UIView+Specification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Specification.m"; sourceTree = "<group>"; };
+		CB6F9F9B2186DAE100352C60 /* BaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		CB6F9F9C2186DAE100352C60 /* BaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		CB6F9FA7218831C700352C60 /* CustomTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTabBar.h; sourceTree = "<group>"; };
+		CB6F9FA8218831C700352C60 /* CustomTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
+		CB6F9FAA218838FE00352C60 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		CB6F9FAB218838FE00352C60 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		CB6F9FAD21883CFB00352C60 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CB6F9FAE21884D5200352C60 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		CB6F9FAF21884D5200352C60 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		CB6F9FB121894FE500352C60 /* UIImage+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		CB6F9FB221894FE500352C60 /* UIImage+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		CB6F9FB42189526800352C60 /* UIColor+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		CB6F9FB52189526800352C60 /* UIColor+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		CB6F9FB8218958CD00352C60 /* Item1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item1ViewController.h; sourceTree = "<group>"; };
+		CB6F9FB9218958CD00352C60 /* Item1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Item1ViewController.m; sourceTree = "<group>"; };
+		CB6F9FBB2189592500352C60 /* Item2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item2ViewController.h; sourceTree = "<group>"; };
+		CB6F9FBC2189592500352C60 /* Item2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Item2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85D78003C77D1D7FC58D832F /* libPods-OCTools.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +108,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48DC029D1E42E473DC112C66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				682E95383E02A4D49C1BC58B /* Pods-OCTools.debug.xcconfig */,
+				C1C1B2A14FF4B056BB8CE8C3 /* Pods-OCTools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B11A92B9112BD392F59A4821 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6108B33AF8512E8E33C25C32 /* libPods-OCTools.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CB6F9F562186A6BC00352C60 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +132,8 @@
 				CB6F9F7A2186A6C700352C60 /* OCToolsTests */,
 				CB6F9F852186A6C700352C60 /* OCToolsUITests */,
 				CB6F9F602186A6BC00352C60 /* Products */,
+				48DC029D1E42E473DC112C66 /* Pods */,
+				B11A92B9112BD392F59A4821 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +150,18 @@
 		CB6F9F612186A6BC00352C60 /* OCTools */ = {
 			isa = PBXGroup;
 			children = (
+				CB6F9FB7218958AD00352C60 /* 控制器 */,
+				CB6F9F9A2186DA3200352C60 /* 基础控制器 */,
+				CB6F9F952186AA0100352C60 /* 扩展 */,
+				CB6F9F942186AA0100352C60 /* 视图 */,
 				CB6F9F622186A6BC00352C60 /* AppDelegate.h */,
 				CB6F9F632186A6BC00352C60 /* AppDelegate.m */,
-				CB6F9F652186A6BC00352C60 /* ViewController.h */,
-				CB6F9F662186A6BC00352C60 /* ViewController.m */,
 				CB6F9F682186A6BC00352C60 /* Main.storyboard */,
 				CB6F9F6B2186A6C700352C60 /* Assets.xcassets */,
 				CB6F9F6D2186A6C700352C60 /* LaunchScreen.storyboard */,
 				CB6F9F702186A6C700352C60 /* Info.plist */,
 				CB6F9F712186A6C700352C60 /* main.m */,
+				CB6F9FAD21883CFB00352C60 /* PrefixHeader.pch */,
 			);
 			path = OCTools;
 			sourceTree = "<group>";
@@ -132,6 +184,52 @@
 			path = OCToolsUITests;
 			sourceTree = "<group>";
 		};
+		CB6F9F942186AA0100352C60 /* 视图 */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F9FA7218831C700352C60 /* CustomTabBar.h */,
+				CB6F9FA8218831C700352C60 /* CustomTabBar.m */,
+			);
+			path = "视图";
+			sourceTree = "<group>";
+		};
+		CB6F9F952186AA0100352C60 /* 扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F9F972186AB2C00352C60 /* UIView+Specification.h */,
+				CB6F9F982186AB2D00352C60 /* UIView+Specification.m */,
+				CB6F9FB121894FE500352C60 /* UIImage+Extension.h */,
+				CB6F9FB221894FE500352C60 /* UIImage+Extension.m */,
+				CB6F9FB42189526800352C60 /* UIColor+Extension.h */,
+				CB6F9FB52189526800352C60 /* UIColor+Extension.m */,
+			);
+			path = "扩展";
+			sourceTree = "<group>";
+		};
+		CB6F9F9A2186DA3200352C60 /* 基础控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F9F9B2186DAE100352C60 /* BaseTabBarController.h */,
+				CB6F9F9C2186DAE100352C60 /* BaseTabBarController.m */,
+				CB6F9FAA218838FE00352C60 /* BaseNavigationController.h */,
+				CB6F9FAB218838FE00352C60 /* BaseNavigationController.m */,
+				CB6F9FAE21884D5200352C60 /* BaseViewController.h */,
+				CB6F9FAF21884D5200352C60 /* BaseViewController.m */,
+			);
+			path = "基础控制器";
+			sourceTree = "<group>";
+		};
+		CB6F9FB7218958AD00352C60 /* 控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F9FB8218958CD00352C60 /* Item1ViewController.h */,
+				CB6F9FB9218958CD00352C60 /* Item1ViewController.m */,
+				CB6F9FBB2189592500352C60 /* Item2ViewController.h */,
+				CB6F9FBC2189592500352C60 /* Item2ViewController.m */,
+			);
+			path = "控制器";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB6F9F8B2186A6C700352C60 /* Build configuration list for PBXNativeTarget "OCTools" */;
 			buildPhases = (
+				EFB997D4F66B25921C28AB25 /* [CP] Check Pods Manifest.lock */,
 				CB6F9F5B2186A6BC00352C60 /* Sources */,
 				CB6F9F5C2186A6BC00352C60 /* Frameworks */,
 				CB6F9F5D2186A6BC00352C60 /* Resources */,
+				6167C865E4D268DBBB2EA979 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,14 +357,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6167C865E4D268DBBB2EA979 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OCTools/Pods-OCTools-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCTools/Pods-OCTools-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFB997D4F66B25921C28AB25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCTools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB6F9F5B2186A6BC00352C60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB6F9F672186A6BC00352C60 /* ViewController.m in Sources */,
 				CB6F9F722186A6C700352C60 /* main.m in Sources */,
+				CB6F9FAC218838FE00352C60 /* BaseNavigationController.m in Sources */,
+				CB6F9FA9218831C700352C60 /* CustomTabBar.m in Sources */,
+				CB6F9F9D2186DAE100352C60 /* BaseTabBarController.m in Sources */,
+				CB6F9FB62189526800352C60 /* UIColor+Extension.m in Sources */,
+				CB6F9F992186AB2D00352C60 /* UIView+Specification.m in Sources */,
+				CB6F9FB021884D5200352C60 /* BaseViewController.m in Sources */,
+				CB6F9FBA218958CD00352C60 /* Item1ViewController.m in Sources */,
 				CB6F9F642186A6BC00352C60 /* AppDelegate.m in Sources */,
+				CB6F9FBD2189592500352C60 /* Item2ViewController.m in Sources */,
+				CB6F9FB321894FE500352C60 /* UIImage+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,10 +588,15 @@
 		};
 		CB6F9F8C2186A6C700352C60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 682E95383E02A4D49C1BC58B /* Pods-OCTools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EL6YKYR78P;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OCTools/PrefixHeader.pch";
 				INFOPLIST_FILE = OCTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,10 +609,15 @@
 		};
 		CB6F9F8D2186A6C700352C60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C1B2A14FF4B056BB8CE8C3 /* Pods-OCTools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EL6YKYR78P;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OCTools/PrefixHeader.pch";
 				INFOPLIST_FILE = OCTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

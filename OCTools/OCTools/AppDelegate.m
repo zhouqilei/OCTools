@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "BaseNavigationController.h"
+#import "Item1ViewController.h"
+#import "Item2ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    Item1ViewController *v1 = [[Item1ViewController alloc]init];
+    BaseNavigationController *n1 = [[BaseNavigationController alloc]initWithRootViewController:v1];
+    Item2ViewController *v2 = [[Item2ViewController alloc]init];
+    BaseNavigationController *n2 = [[BaseNavigationController alloc]initWithRootViewController:v2];
+    
+    self.tabBarController = [[BaseTabBarController alloc]init];
+    self.tabBarController.viewControllers = @[n1,n2];
+    
+    UITabBar *tabBar = self.tabBarController.tabBar;
+    
+    UITabBarItem *item1 = [tabBar.items objectAtIndex:0];
+    item1.title = @"item1";
+    
+    UITabBarItem *item2 = [tabBar.items objectAtIndex:1];
+    item2.title = @"item2";
+    
+    self.window.rootViewController = self.tabBarController;
+    
     return YES;
 }
 
