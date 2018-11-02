@@ -24,6 +24,11 @@
 		CB6F9FB62189526800352C60 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FB52189526800352C60 /* UIColor+Extension.m */; };
 		CB6F9FBA218958CD00352C60 /* Item1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FB9218958CD00352C60 /* Item1ViewController.m */; };
 		CB6F9FBD2189592500352C60 /* Item2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FBC2189592500352C60 /* Item2ViewController.m */; };
+		CB6F9FC0218A83B800352C60 /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FBF218A83B800352C60 /* BaseTableView.m */; };
+		CB6F9FC6218AA6EC00352C60 /* UpView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FC5218AA6EC00352C60 /* UpView.m */; };
+		CB6F9FC9218ADC8800352C60 /* DatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FC8218ADC8800352C60 /* DatePickerView.m */; };
+		CB6F9FCD218BE9E200352C60 /* address.json in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9FCC218BE9E200352C60 /* address.json */; };
+		CB6F9FD0218BEAEA00352C60 /* AddressPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FCF218BEAEA00352C60 /* AddressPickView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +85,15 @@
 		CB6F9FB9218958CD00352C60 /* Item1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Item1ViewController.m; sourceTree = "<group>"; };
 		CB6F9FBB2189592500352C60 /* Item2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item2ViewController.h; sourceTree = "<group>"; };
 		CB6F9FBC2189592500352C60 /* Item2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Item2ViewController.m; sourceTree = "<group>"; };
+		CB6F9FBE218A83B800352C60 /* BaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		CB6F9FBF218A83B800352C60 /* BaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		CB6F9FC4218AA6EC00352C60 /* UpView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpView.h; sourceTree = "<group>"; };
+		CB6F9FC5218AA6EC00352C60 /* UpView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpView.m; sourceTree = "<group>"; };
+		CB6F9FC7218ADC8800352C60 /* DatePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatePickerView.h; sourceTree = "<group>"; };
+		CB6F9FC8218ADC8800352C60 /* DatePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatePickerView.m; sourceTree = "<group>"; };
+		CB6F9FCC218BE9E200352C60 /* address.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = address.json; sourceTree = "<group>"; };
+		CB6F9FCE218BEAEA00352C60 /* AddressPickView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressPickView.h; sourceTree = "<group>"; };
+		CB6F9FCF218BEAEA00352C60 /* AddressPickView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressPickView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,13 +167,14 @@
 				CB6F9FB7218958AD00352C60 /* 控制器 */,
 				CB6F9F9A2186DA3200352C60 /* 基础控制器 */,
 				CB6F9F952186AA0100352C60 /* 扩展 */,
-				CB6F9F942186AA0100352C60 /* 视图 */,
+				CB6F9F942186AA0100352C60 /* 基础视图 */,
 				CB6F9F622186A6BC00352C60 /* AppDelegate.h */,
 				CB6F9F632186A6BC00352C60 /* AppDelegate.m */,
 				CB6F9F682186A6BC00352C60 /* Main.storyboard */,
 				CB6F9F6B2186A6C700352C60 /* Assets.xcassets */,
 				CB6F9F6D2186A6C700352C60 /* LaunchScreen.storyboard */,
 				CB6F9F702186A6C700352C60 /* Info.plist */,
+				CB6F9FCC218BE9E200352C60 /* address.json */,
 				CB6F9F712186A6C700352C60 /* main.m */,
 				CB6F9FAD21883CFB00352C60 /* PrefixHeader.pch */,
 			);
@@ -184,13 +199,21 @@
 			path = OCToolsUITests;
 			sourceTree = "<group>";
 		};
-		CB6F9F942186AA0100352C60 /* 视图 */ = {
+		CB6F9F942186AA0100352C60 /* 基础视图 */ = {
 			isa = PBXGroup;
 			children = (
 				CB6F9FA7218831C700352C60 /* CustomTabBar.h */,
 				CB6F9FA8218831C700352C60 /* CustomTabBar.m */,
+				CB6F9FBE218A83B800352C60 /* BaseTableView.h */,
+				CB6F9FBF218A83B800352C60 /* BaseTableView.m */,
+				CB6F9FC4218AA6EC00352C60 /* UpView.h */,
+				CB6F9FC5218AA6EC00352C60 /* UpView.m */,
+				CB6F9FC7218ADC8800352C60 /* DatePickerView.h */,
+				CB6F9FC8218ADC8800352C60 /* DatePickerView.m */,
+				CB6F9FCE218BEAEA00352C60 /* AddressPickView.h */,
+				CB6F9FCF218BEAEA00352C60 /* AddressPickView.m */,
 			);
-			path = "视图";
+			path = "基础视图";
 			sourceTree = "<group>";
 		};
 		CB6F9F952186AA0100352C60 /* 扩展 */ = {
@@ -337,6 +360,7 @@
 			files = (
 				CB6F9F6F2186A6C700352C60 /* LaunchScreen.storyboard in Resources */,
 				CB6F9F6C2186A6C700352C60 /* Assets.xcassets in Resources */,
+				CB6F9FCD218BE9E200352C60 /* address.json in Resources */,
 				CB6F9F6A2186A6BC00352C60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,9 +433,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6F9FC9218ADC8800352C60 /* DatePickerView.m in Sources */,
+				CB6F9FD0218BEAEA00352C60 /* AddressPickView.m in Sources */,
+				CB6F9FC0218A83B800352C60 /* BaseTableView.m in Sources */,
 				CB6F9F722186A6C700352C60 /* main.m in Sources */,
 				CB6F9FAC218838FE00352C60 /* BaseNavigationController.m in Sources */,
 				CB6F9FA9218831C700352C60 /* CustomTabBar.m in Sources */,
+				CB6F9FC6218AA6EC00352C60 /* UpView.m in Sources */,
 				CB6F9F9D2186DAE100352C60 /* BaseTabBarController.m in Sources */,
 				CB6F9FB62189526800352C60 /* UIColor+Extension.m in Sources */,
 				CB6F9F992186AB2D00352C60 /* UIView+Specification.m in Sources */,
@@ -603,7 +631,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zql.TestDemo.OCTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -624,7 +652,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zql.TestDemo.OCTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

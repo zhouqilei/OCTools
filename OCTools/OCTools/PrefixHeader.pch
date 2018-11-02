@@ -13,6 +13,10 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 //常用的引入文件
 #import "BaseViewController.h"
+#import "BaseTableView.h"
+#import "UpView.h"
+#import "DatePickerView.h"
+#import "AddressPickView.h"
 
 #import <MJRefresh.h>
 
@@ -60,6 +64,6 @@
 #define App_Main_Color [UIColor colorWithHexString:@"07acf6"]
 
 //配置颜色方法缩写
-#define RGB(r,g,b) RGBA(r, g, b, 1.0)
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a];
 
 #endif /* PrefixHeader_pch */
