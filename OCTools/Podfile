@@ -3,5 +3,5 @@
 
 target 'OCTools' do
 pod 'MJRefresh'
-
+pod 'SDWebImage'
 end

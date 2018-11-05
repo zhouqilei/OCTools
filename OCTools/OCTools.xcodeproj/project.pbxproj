@@ -29,6 +29,19 @@
 		CB6F9FC9218ADC8800352C60 /* DatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FC8218ADC8800352C60 /* DatePickerView.m */; };
 		CB6F9FCD218BE9E200352C60 /* address.json in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9FCC218BE9E200352C60 /* address.json */; };
 		CB6F9FD0218BEAEA00352C60 /* AddressPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FCF218BEAEA00352C60 /* AddressPickView.m */; };
+		CB6F9FE8218FEB4700352C60 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FDB218FEB4700352C60 /* TAAbstractDotView.m */; };
+		CB6F9FE9218FEB4700352C60 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FDD218FEB4700352C60 /* TAAnimatedDotView.m */; };
+		CB6F9FEA218FEB4700352C60 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FDF218FEB4700352C60 /* TADotView.m */; };
+		CB6F9FEB218FEB4700352C60 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FE1218FEB4700352C60 /* TAPageControl.m */; };
+		CB6F9FEC218FEB4700352C60 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FE3218FEB4700352C60 /* SDCollectionViewCell.m */; };
+		CB6F9FED218FEB4700352C60 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FE5218FEB4700352C60 /* SDCycleScrollView.m */; };
+		CB6F9FEE218FEB4700352C60 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FE7218FEB4700352C60 /* UIView+SDExtension.m */; };
+		CB6F9FF1218FEB7F00352C60 /* CycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FF0218FEB7F00352C60 /* CycleViewController.m */; };
+		CB6F9FF4218FF28200352C60 /* StarRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FF3218FF28200352C60 /* StarRateView.m */; };
+		CB6F9FF72190145400352C60 /* StarRateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FF62190145400352C60 /* StarRateViewController.m */; };
+		CB6F9FFA21901F9C00352C60 /* PopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FF921901F9C00352C60 /* PopMenuView.m */; };
+		CB6F9FFD2190214F00352C60 /* YCMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FFB2190214F00352C60 /* YCMenuView.m */; };
+		CB6FA0002190263900352C60 /* ScrollMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FFF2190263900352C60 /* ScrollMenuView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +107,32 @@
 		CB6F9FCC218BE9E200352C60 /* address.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = address.json; sourceTree = "<group>"; };
 		CB6F9FCE218BEAEA00352C60 /* AddressPickView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressPickView.h; sourceTree = "<group>"; };
 		CB6F9FCF218BEAEA00352C60 /* AddressPickView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressPickView.m; sourceTree = "<group>"; };
+		CB6F9FDA218FEB4700352C60 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		CB6F9FDB218FEB4700352C60 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		CB6F9FDC218FEB4700352C60 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		CB6F9FDD218FEB4700352C60 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		CB6F9FDE218FEB4700352C60 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		CB6F9FDF218FEB4700352C60 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		CB6F9FE0218FEB4700352C60 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		CB6F9FE1218FEB4700352C60 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		CB6F9FE2218FEB4700352C60 /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		CB6F9FE3218FEB4700352C60 /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		CB6F9FE4218FEB4700352C60 /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		CB6F9FE5218FEB4700352C60 /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		CB6F9FE6218FEB4700352C60 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		CB6F9FE7218FEB4700352C60 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		CB6F9FEF218FEB7F00352C60 /* CycleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CycleViewController.h; sourceTree = "<group>"; };
+		CB6F9FF0218FEB7F00352C60 /* CycleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleViewController.m; sourceTree = "<group>"; };
+		CB6F9FF2218FF28200352C60 /* StarRateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarRateView.h; sourceTree = "<group>"; };
+		CB6F9FF3218FF28200352C60 /* StarRateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarRateView.m; sourceTree = "<group>"; };
+		CB6F9FF52190145400352C60 /* StarRateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarRateViewController.h; sourceTree = "<group>"; };
+		CB6F9FF62190145400352C60 /* StarRateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarRateViewController.m; sourceTree = "<group>"; };
+		CB6F9FF821901F9C00352C60 /* PopMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopMenuView.h; sourceTree = "<group>"; };
+		CB6F9FF921901F9C00352C60 /* PopMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopMenuView.m; sourceTree = "<group>"; };
+		CB6F9FFB2190214F00352C60 /* YCMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCMenuView.m; sourceTree = "<group>"; };
+		CB6F9FFC2190214F00352C60 /* YCMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCMenuView.h; sourceTree = "<group>"; };
+		CB6F9FFE2190263900352C60 /* ScrollMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollMenuView.h; sourceTree = "<group>"; };
+		CB6F9FFF2190263900352C60 /* ScrollMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollMenuView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +203,7 @@
 		CB6F9F612186A6BC00352C60 /* OCTools */ = {
 			isa = PBXGroup;
 			children = (
+				CB6F9FD7218FEAC300352C60 /* 第三方 */,
 				CB6F9FB7218958AD00352C60 /* 控制器 */,
 				CB6F9F9A2186DA3200352C60 /* 基础控制器 */,
 				CB6F9F952186AA0100352C60 /* 扩展 */,
@@ -202,6 +242,8 @@
 		CB6F9F942186AA0100352C60 /* 基础视图 */ = {
 			isa = PBXGroup;
 			children = (
+				CB6F9FFC2190214F00352C60 /* YCMenuView.h */,
+				CB6F9FFB2190214F00352C60 /* YCMenuView.m */,
 				CB6F9FA7218831C700352C60 /* CustomTabBar.h */,
 				CB6F9FA8218831C700352C60 /* CustomTabBar.m */,
 				CB6F9FBE218A83B800352C60 /* BaseTableView.h */,
@@ -212,6 +254,12 @@
 				CB6F9FC8218ADC8800352C60 /* DatePickerView.m */,
 				CB6F9FCE218BEAEA00352C60 /* AddressPickView.h */,
 				CB6F9FCF218BEAEA00352C60 /* AddressPickView.m */,
+				CB6F9FF2218FF28200352C60 /* StarRateView.h */,
+				CB6F9FF3218FF28200352C60 /* StarRateView.m */,
+				CB6F9FF821901F9C00352C60 /* PopMenuView.h */,
+				CB6F9FF921901F9C00352C60 /* PopMenuView.m */,
+				CB6F9FFE2190263900352C60 /* ScrollMenuView.h */,
+				CB6F9FFF2190263900352C60 /* ScrollMenuView.m */,
 			);
 			path = "基础视图";
 			sourceTree = "<group>";
@@ -249,8 +297,49 @@
 				CB6F9FB9218958CD00352C60 /* Item1ViewController.m */,
 				CB6F9FBB2189592500352C60 /* Item2ViewController.h */,
 				CB6F9FBC2189592500352C60 /* Item2ViewController.m */,
+				CB6F9FEF218FEB7F00352C60 /* CycleViewController.h */,
+				CB6F9FF0218FEB7F00352C60 /* CycleViewController.m */,
+				CB6F9FF52190145400352C60 /* StarRateViewController.h */,
+				CB6F9FF62190145400352C60 /* StarRateViewController.m */,
 			);
 			path = "控制器";
+			sourceTree = "<group>";
+		};
+		CB6F9FD7218FEAC300352C60 /* 第三方 */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F9FD8218FEB4700352C60 /* SDCycleScrollView */,
+			);
+			path = "第三方";
+			sourceTree = "<group>";
+		};
+		CB6F9FD8218FEB4700352C60 /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F9FD9218FEB4700352C60 /* PageControl */,
+				CB6F9FE2218FEB4700352C60 /* SDCollectionViewCell.h */,
+				CB6F9FE3218FEB4700352C60 /* SDCollectionViewCell.m */,
+				CB6F9FE4218FEB4700352C60 /* SDCycleScrollView.h */,
+				CB6F9FE5218FEB4700352C60 /* SDCycleScrollView.m */,
+				CB6F9FE6218FEB4700352C60 /* UIView+SDExtension.h */,
+				CB6F9FE7218FEB4700352C60 /* UIView+SDExtension.m */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		CB6F9FD9218FEB4700352C60 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F9FDA218FEB4700352C60 /* TAAbstractDotView.h */,
+				CB6F9FDB218FEB4700352C60 /* TAAbstractDotView.m */,
+				CB6F9FDC218FEB4700352C60 /* TAAnimatedDotView.h */,
+				CB6F9FDD218FEB4700352C60 /* TAAnimatedDotView.m */,
+				CB6F9FDE218FEB4700352C60 /* TADotView.h */,
+				CB6F9FDF218FEB4700352C60 /* TADotView.m */,
+				CB6F9FE0218FEB4700352C60 /* TAPageControl.h */,
+				CB6F9FE1218FEB4700352C60 /* TAPageControl.m */,
+			);
+			path = PageControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,15 +523,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB6F9FC9218ADC8800352C60 /* DatePickerView.m in Sources */,
+				CB6F9FED218FEB4700352C60 /* SDCycleScrollView.m in Sources */,
+				CB6F9FEA218FEB4700352C60 /* TADotView.m in Sources */,
+				CB6F9FF72190145400352C60 /* StarRateViewController.m in Sources */,
 				CB6F9FD0218BEAEA00352C60 /* AddressPickView.m in Sources */,
+				CB6F9FEC218FEB4700352C60 /* SDCollectionViewCell.m in Sources */,
 				CB6F9FC0218A83B800352C60 /* BaseTableView.m in Sources */,
 				CB6F9F722186A6C700352C60 /* main.m in Sources */,
 				CB6F9FAC218838FE00352C60 /* BaseNavigationController.m in Sources */,
+				CB6F9FE9218FEB4700352C60 /* TAAnimatedDotView.m in Sources */,
 				CB6F9FA9218831C700352C60 /* CustomTabBar.m in Sources */,
+				CB6F9FF4218FF28200352C60 /* StarRateView.m in Sources */,
+				CB6F9FF1218FEB7F00352C60 /* CycleViewController.m in Sources */,
 				CB6F9FC6218AA6EC00352C60 /* UpView.m in Sources */,
 				CB6F9F9D2186DAE100352C60 /* BaseTabBarController.m in Sources */,
 				CB6F9FB62189526800352C60 /* UIColor+Extension.m in Sources */,
+				CB6F9FE8218FEB4700352C60 /* TAAbstractDotView.m in Sources */,
+				CB6F9FFD2190214F00352C60 /* YCMenuView.m in Sources */,
 				CB6F9F992186AB2D00352C60 /* UIView+Specification.m in Sources */,
+				CB6F9FEE218FEB4700352C60 /* UIView+SDExtension.m in Sources */,
+				CB6F9FFA21901F9C00352C60 /* PopMenuView.m in Sources */,
+				CB6F9FEB218FEB4700352C60 /* TAPageControl.m in Sources */,
+				CB6FA0002190263900352C60 /* ScrollMenuView.m in Sources */,
 				CB6F9FB021884D5200352C60 /* BaseViewController.m in Sources */,
 				CB6F9FBA218958CD00352C60 /* Item1ViewController.m in Sources */,
 				CB6F9F642186A6BC00352C60 /* AppDelegate.m in Sources */,
