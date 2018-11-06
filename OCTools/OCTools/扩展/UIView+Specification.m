@@ -41,4 +41,10 @@
     frame.size.height = height;
     self.frame = frame;
 }
+- (CGFloat)maxX {
+    return self.x + self.width;
+}
+- (CGFloat)maxY {
+    return self.y + self.height;
+}
 @end

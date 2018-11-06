@@ -10,10 +10,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 typedef NS_ENUM(NSInteger,ScrollMenuViewStyle){
+    /**没有底部线*/
     ScrollMenuViewStyleDefault,
+    /**底部线的宽度=视图宽度 / 菜单数量*/
     ScrollMenuViewStyleValue1,
+    /**底部线的宽度固定*/
     ScrollMenuViewStyleValue2,
-    ScrollMenuViewStyleValue3
 };
 @class ScrollMenuView;
 @protocol ScrollMenuViewDelegate <NSObject>
@@ -26,6 +28,13 @@ typedef NS_ENUM(NSInteger,ScrollMenuViewStyle){
 @property (nonatomic, strong)NSArray *items;
 
 @property (nonatomic, weak)id<ScrollMenuViewDelegate>delegate;
+
+/**初始化*/
+- (instancetype)initWithFrame:(CGRect)frame andStyle:(ScrollMenuViewStyle)style;
 @end
 
+
+@interface ScrollMenuButton : UIButton
++(instancetype)defaultStyleButtonWithTitle:(NSString *)title;
+@end
 NS_ASSUME_NONNULL_END

@@ -42,6 +42,10 @@
 		CB6F9FFA21901F9C00352C60 /* PopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FF921901F9C00352C60 /* PopMenuView.m */; };
 		CB6F9FFD2190214F00352C60 /* YCMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FFB2190214F00352C60 /* YCMenuView.m */; };
 		CB6FA0002190263900352C60 /* ScrollMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9FFF2190263900352C60 /* ScrollMenuView.m */; };
+		CB6FA003219034AF00352C60 /* ScrollMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FA002219034AF00352C60 /* ScrollMenuViewController.m */; };
+		CB6FA0092191366F00352C60 /* RemindView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FA0082191366F00352C60 /* RemindView.m */; };
+		CB6FA00C2191738A00352C60 /* PromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FA00B2191738A00352C60 /* PromptView.m */; };
+		CB6FA00F219182D500352C60 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FA00E219182D500352C60 /* LoadingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +137,14 @@
 		CB6F9FFC2190214F00352C60 /* YCMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCMenuView.h; sourceTree = "<group>"; };
 		CB6F9FFE2190263900352C60 /* ScrollMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollMenuView.h; sourceTree = "<group>"; };
 		CB6F9FFF2190263900352C60 /* ScrollMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollMenuView.m; sourceTree = "<group>"; };
+		CB6FA001219034AF00352C60 /* ScrollMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollMenuViewController.h; sourceTree = "<group>"; };
+		CB6FA002219034AF00352C60 /* ScrollMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollMenuViewController.m; sourceTree = "<group>"; };
+		CB6FA0072191366F00352C60 /* RemindView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemindView.h; sourceTree = "<group>"; };
+		CB6FA0082191366F00352C60 /* RemindView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemindView.m; sourceTree = "<group>"; };
+		CB6FA00A2191738A00352C60 /* PromptView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PromptView.h; sourceTree = "<group>"; };
+		CB6FA00B2191738A00352C60 /* PromptView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromptView.m; sourceTree = "<group>"; };
+		CB6FA00D219182D500352C60 /* LoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		CB6FA00E219182D500352C60 /* LoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +272,12 @@
 				CB6F9FF921901F9C00352C60 /* PopMenuView.m */,
 				CB6F9FFE2190263900352C60 /* ScrollMenuView.h */,
 				CB6F9FFF2190263900352C60 /* ScrollMenuView.m */,
+				CB6FA0072191366F00352C60 /* RemindView.h */,
+				CB6FA0082191366F00352C60 /* RemindView.m */,
+				CB6FA00A2191738A00352C60 /* PromptView.h */,
+				CB6FA00B2191738A00352C60 /* PromptView.m */,
+				CB6FA00D219182D500352C60 /* LoadingView.h */,
+				CB6FA00E219182D500352C60 /* LoadingView.m */,
 			);
 			path = "基础视图";
 			sourceTree = "<group>";
@@ -301,6 +319,8 @@
 				CB6F9FF0218FEB7F00352C60 /* CycleViewController.m */,
 				CB6F9FF52190145400352C60 /* StarRateViewController.h */,
 				CB6F9FF62190145400352C60 /* StarRateViewController.m */,
+				CB6FA001219034AF00352C60 /* ScrollMenuViewController.h */,
+				CB6FA002219034AF00352C60 /* ScrollMenuViewController.m */,
 			);
 			path = "控制器";
 			sourceTree = "<group>";
@@ -523,13 +543,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB6F9FC9218ADC8800352C60 /* DatePickerView.m in Sources */,
+				CB6FA00F219182D500352C60 /* LoadingView.m in Sources */,
 				CB6F9FED218FEB4700352C60 /* SDCycleScrollView.m in Sources */,
 				CB6F9FEA218FEB4700352C60 /* TADotView.m in Sources */,
 				CB6F9FF72190145400352C60 /* StarRateViewController.m in Sources */,
 				CB6F9FD0218BEAEA00352C60 /* AddressPickView.m in Sources */,
+				CB6FA003219034AF00352C60 /* ScrollMenuViewController.m in Sources */,
 				CB6F9FEC218FEB4700352C60 /* SDCollectionViewCell.m in Sources */,
 				CB6F9FC0218A83B800352C60 /* BaseTableView.m in Sources */,
 				CB6F9F722186A6C700352C60 /* main.m in Sources */,
+				CB6FA0092191366F00352C60 /* RemindView.m in Sources */,
 				CB6F9FAC218838FE00352C60 /* BaseNavigationController.m in Sources */,
 				CB6F9FE9218FEB4700352C60 /* TAAnimatedDotView.m in Sources */,
 				CB6F9FA9218831C700352C60 /* CustomTabBar.m in Sources */,
@@ -545,6 +568,7 @@
 				CB6F9FFA21901F9C00352C60 /* PopMenuView.m in Sources */,
 				CB6F9FEB218FEB4700352C60 /* TAPageControl.m in Sources */,
 				CB6FA0002190263900352C60 /* ScrollMenuView.m in Sources */,
+				CB6FA00C2191738A00352C60 /* PromptView.m in Sources */,
 				CB6F9FB021884D5200352C60 /* BaseViewController.m in Sources */,
 				CB6F9FBA218958CD00352C60 /* Item1ViewController.m in Sources */,
 				CB6F9F642186A6BC00352C60 /* AppDelegate.m in Sources */,
