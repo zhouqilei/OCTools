@@ -46,6 +46,7 @@
 		CB6FA0092191366F00352C60 /* RemindView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FA0082191366F00352C60 /* RemindView.m */; };
 		CB6FA00C2191738A00352C60 /* PromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FA00B2191738A00352C60 /* PromptView.m */; };
 		CB6FA00F219182D500352C60 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FA00E219182D500352C60 /* LoadingView.m */; };
+		CB6FA01321928D2F00352C60 /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FA01221928D2F00352C60 /* RequestManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,6 +146,8 @@
 		CB6FA00B2191738A00352C60 /* PromptView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromptView.m; sourceTree = "<group>"; };
 		CB6FA00D219182D500352C60 /* LoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
 		CB6FA00E219182D500352C60 /* LoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		CB6FA01121928D2F00352C60 /* RequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
+		CB6FA01221928D2F00352C60 /* RequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +218,7 @@
 		CB6F9F612186A6BC00352C60 /* OCTools */ = {
 			isa = PBXGroup;
 			children = (
+				CB6FA01021928D0200352C60 /* 管理类 */,
 				CB6F9FD7218FEAC300352C60 /* 第三方 */,
 				CB6F9FB7218958AD00352C60 /* 控制器 */,
 				CB6F9F9A2186DA3200352C60 /* 基础控制器 */,
@@ -360,6 +364,15 @@
 				CB6F9FE1218FEB4700352C60 /* TAPageControl.m */,
 			);
 			path = PageControl;
+			sourceTree = "<group>";
+		};
+		CB6FA01021928D0200352C60 /* 管理类 */ = {
+			isa = PBXGroup;
+			children = (
+				CB6FA01121928D2F00352C60 /* RequestManager.h */,
+				CB6FA01221928D2F00352C60 /* RequestManager.m */,
+			);
+			path = "管理类";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -560,6 +573,7 @@
 				CB6F9FF1218FEB7F00352C60 /* CycleViewController.m in Sources */,
 				CB6F9FC6218AA6EC00352C60 /* UpView.m in Sources */,
 				CB6F9F9D2186DAE100352C60 /* BaseTabBarController.m in Sources */,
+				CB6FA01321928D2F00352C60 /* RequestManager.m in Sources */,
 				CB6F9FB62189526800352C60 /* UIColor+Extension.m in Sources */,
 				CB6F9FE8218FEB4700352C60 /* TAAbstractDotView.m in Sources */,
 				CB6F9FFD2190214F00352C60 /* YCMenuView.m in Sources */,

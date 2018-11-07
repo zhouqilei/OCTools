@@ -22,8 +22,11 @@
 #import "PromptView.h"
 #import "LoadingView.h"
 
+#import "RequestManager.h"
+
 #import <MJRefresh.h>
 #import <SDWebImage/UIImageView+WebCache.h>
+#import <AFNetworking.h>
 
 #import "UIView+Specification.h"
 #import "UIImage+Extension.h"
