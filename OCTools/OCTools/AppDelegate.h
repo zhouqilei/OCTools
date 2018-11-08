@@ -12,5 +12,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 @property (nonatomic, strong) BaseTabBarController *tabBarController;
+@property (nonatomic, strong)Reachability *coon;
 @end
 

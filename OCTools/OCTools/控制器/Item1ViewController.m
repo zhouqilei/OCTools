@@ -10,6 +10,7 @@
 #import "CycleViewController.h"
 #import "StarRateViewController.h"
 #import "ScrollMenuViewController.h"
+#import "MenuAndItemsViewController.h"
 @interface Item1ViewController ()<UITableViewDelegate,UITableViewDataSource,BaseTableViewDelegate,DatePickerViewDelegate,AddressPickViewDelegate>
 @property (nonatomic, strong)BaseTableView *tab;
 @property (nonatomic, strong)NSArray *data;
@@ -20,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.data = @[@"自下向上弹出框",@"年月日选择器",@"年月选择器",@"地区选择器",@"图片轮播及文字轮播",@"星星评分",@"类似QQ的弹出菜单",@"可滚动菜单选择视图",@"类似QQ的自上而下的本地通知",@"简单的信息提示",@"使用UIActivityIndicatorView实现菊花效果"];
+    self.data = @[@"自下向上弹出框",@"年月日选择器",@"年月选择器",@"地区选择器",@"图片轮播及文字轮播",@"星星评分",@"类似QQ的弹出菜单",@"可滚动菜单选择视图",@"类似QQ的自上而下的本地通知",@"简单的信息提示",@"使用UIActivityIndicatorView实现菊花效果",@"类似美团外卖的左边分类右边字内容的双列表"];
     
     self.tab = [[BaseTableView alloc]initWithFrame:CGRectMake(0, 0, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT - HeightForNagivationBarAndStatusBar - TAB_BAR_HEIGHT) style:UITableViewStylePlain];
     self.tab.delegate = self;
@@ -158,6 +159,12 @@
                 [LoadingView dismiss];
             });
         }
+        case 11:
+        {
+            MenuAndItemsViewController *vc = [[MenuAndItemsViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
         default:
             break;
     }

@@ -37,6 +37,10 @@
     
     self.window.rootViewController = self.tabBarController;
     
+    //添加网络变化的监听
+    self.coon = [Reachability reachabilityForInternetConnection];
+    [self.coon startNotifier];
+    
     return YES;
 }
 

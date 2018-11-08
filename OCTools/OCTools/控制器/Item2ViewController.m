@@ -7,10 +7,10 @@
 //
 
 #import "Item2ViewController.h"
-
+#import "AppDelegate.h"
 @interface Item2ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong)BaseTableView *tab;
-@property (nonatomic, strong)NSArray *data;
+@property (nonatomic, strong)NSMutableArray *data;
 @end
 
 @implementation Item2ViewController
@@ -18,12 +18,44 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.data = @[@"网络请求"];
+    //接收网络变化的通知
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(checkNetworkStatus) name:kReachabilityChangedNotification object:nil];
+    
+    self.data = [NSMutableArray arrayWithArray:@[@"网络请求",@"网络状态"]];
     self.tab = [[BaseTableView alloc]initWithFrame:CGRectMake(0, 0, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT - HeightForNagivationBarAndStatusBar - HOME_INDICATOR_HEIGHT) style:UITableViewStylePlain];
     self.tab.delegate = self;
     self.tab.dataSource = self;
     [self.view addSubview:self.tab];
+    
+    [self checkNetworkStatus];
 }
+#pragma mark - 网络变化通知方法
+- (void)checkNetworkStatus {
+    AppDelegate *del = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    NetworkStatus status = [del.coon currentReachabilityStatus];
+    switch (status) {
+        case NotReachable:
+            {
+                [self.data replaceObjectAtIndex:1 withObject:@"网络状态（网络不可用）"];
+                [self.tab reloadData];
+            }
+            break;
+        case ReachableViaWiFi:
+        {
+            [self.data replaceObjectAtIndex:1 withObject:@"网络状态（wifi可用）"];
+            [self.tab reloadData];
+        }
+            break;
+        case ReachableViaWWAN:{
+            [self.data replaceObjectAtIndex:1 withObject:@"网络状态（手机网络可用）"];
+            [self.tab reloadData];
+        }
+            break;
+        default:
+            break;
+    }
+}
+
 #pragma makr - UITableVIewDelegate UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     if (self.data.count > 0) {
@@ -56,7 +88,11 @@
                 }];
             }
             break;
-            
+        case 1:
+        {
+           
+        }
+            break;
         default:
             break;
     }

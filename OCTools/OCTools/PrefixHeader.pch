@@ -23,6 +23,7 @@
 #import "LoadingView.h"
 
 #import "RequestManager.h"
+#import "Reachability.h"
 
 #import <MJRefresh.h>
 #import <SDWebImage/UIImageView+WebCache.h>
