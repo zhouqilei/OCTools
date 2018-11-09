@@ -12,6 +12,10 @@
 		CB50EDBB2193D33700485628 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB50EDBA2193D33700485628 /* SystemConfiguration.framework */; };
 		CB50EDBE21940EAA00485628 /* MenuAndItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDBD21940EAA00485628 /* MenuAndItemsView.m */; };
 		CB50EDC12194174300485628 /* MenuAndItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDC02194174300485628 /* MenuAndItemsViewController.m */; };
+		CB50EDC4219523D000485628 /* ImagesPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDC3219523D000485628 /* ImagesPickView.m */; };
+		CB50EDC72195584100485628 /* ImagePickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDC62195584100485628 /* ImagePickViewController.m */; };
+		CB50EDCA21956B6900485628 /* AuthorizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDC921956B6900485628 /* AuthorizationManager.m */; };
+		CB50EDCD219573F200485628 /* AuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDCC219573F200485628 /* AuthorizationViewController.m */; };
 		CB6F9F642186A6BC00352C60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9F632186A6BC00352C60 /* AppDelegate.m */; };
 		CB6F9F6A2186A6BC00352C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F682186A6BC00352C60 /* Main.storyboard */; };
 		CB6F9F6C2186A6C700352C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F6B2186A6C700352C60 /* Assets.xcassets */; };
@@ -81,6 +85,14 @@
 		CB50EDBD21940EAA00485628 /* MenuAndItemsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuAndItemsView.m; sourceTree = "<group>"; };
 		CB50EDBF2194174300485628 /* MenuAndItemsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuAndItemsViewController.h; sourceTree = "<group>"; };
 		CB50EDC02194174300485628 /* MenuAndItemsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuAndItemsViewController.m; sourceTree = "<group>"; };
+		CB50EDC2219523D000485628 /* ImagesPickView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagesPickView.h; sourceTree = "<group>"; };
+		CB50EDC3219523D000485628 /* ImagesPickView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagesPickView.m; sourceTree = "<group>"; };
+		CB50EDC52195584100485628 /* ImagePickViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePickViewController.h; sourceTree = "<group>"; };
+		CB50EDC62195584100485628 /* ImagePickViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePickViewController.m; sourceTree = "<group>"; };
+		CB50EDC821956B6900485628 /* AuthorizationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthorizationManager.h; sourceTree = "<group>"; };
+		CB50EDC921956B6900485628 /* AuthorizationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthorizationManager.m; sourceTree = "<group>"; };
+		CB50EDCB219573F200485628 /* AuthorizationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthorizationViewController.h; sourceTree = "<group>"; };
+		CB50EDCC219573F200485628 /* AuthorizationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthorizationViewController.m; sourceTree = "<group>"; };
 		CB6F9F5F2186A6BC00352C60 /* OCTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6F9F622186A6BC00352C60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB6F9F632186A6BC00352C60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -297,6 +309,8 @@
 				CB6FA00E219182D500352C60 /* LoadingView.m */,
 				CB50EDBC21940EAA00485628 /* MenuAndItemsView.h */,
 				CB50EDBD21940EAA00485628 /* MenuAndItemsView.m */,
+				CB50EDC2219523D000485628 /* ImagesPickView.h */,
+				CB50EDC3219523D000485628 /* ImagesPickView.m */,
 			);
 			path = "基础视图";
 			sourceTree = "<group>";
@@ -342,6 +356,10 @@
 				CB6FA002219034AF00352C60 /* ScrollMenuViewController.m */,
 				CB50EDBF2194174300485628 /* MenuAndItemsViewController.h */,
 				CB50EDC02194174300485628 /* MenuAndItemsViewController.m */,
+				CB50EDC52195584100485628 /* ImagePickViewController.h */,
+				CB50EDC62195584100485628 /* ImagePickViewController.m */,
+				CB50EDCB219573F200485628 /* AuthorizationViewController.h */,
+				CB50EDCC219573F200485628 /* AuthorizationViewController.m */,
 			);
 			path = "控制器";
 			sourceTree = "<group>";
@@ -390,6 +408,8 @@
 				CB6FA01221928D2F00352C60 /* RequestManager.m */,
 				CB50EDB72193D2E400485628 /* Reachability.h */,
 				CB50EDB82193D2E400485628 /* Reachability.m */,
+				CB50EDC821956B6900485628 /* AuthorizationManager.h */,
+				CB50EDC921956B6900485628 /* AuthorizationManager.m */,
 			);
 			path = "管理类";
 			sourceTree = "<group>";
@@ -533,12 +553,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-OCTools/Pods-OCTools-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -586,6 +608,7 @@
 				CB6F9F722186A6C700352C60 /* main.m in Sources */,
 				CB6FA0092191366F00352C60 /* RemindView.m in Sources */,
 				CB6F9FAC218838FE00352C60 /* BaseNavigationController.m in Sources */,
+				CB50EDC4219523D000485628 /* ImagesPickView.m in Sources */,
 				CB6F9FE9218FEB4700352C60 /* TAAnimatedDotView.m in Sources */,
 				CB6F9FA9218831C700352C60 /* CustomTabBar.m in Sources */,
 				CB6F9FF4218FF28200352C60 /* StarRateView.m in Sources */,
@@ -597,6 +620,7 @@
 				CB6F9FB62189526800352C60 /* UIColor+Extension.m in Sources */,
 				CB6F9FE8218FEB4700352C60 /* TAAbstractDotView.m in Sources */,
 				CB6F9FFD2190214F00352C60 /* YCMenuView.m in Sources */,
+				CB50EDCD219573F200485628 /* AuthorizationViewController.m in Sources */,
 				CB6F9F992186AB2D00352C60 /* UIView+Specification.m in Sources */,
 				CB50EDB92193D2E400485628 /* Reachability.m in Sources */,
 				CB6F9FEE218FEB4700352C60 /* UIView+SDExtension.m in Sources */,
@@ -604,8 +628,10 @@
 				CB6F9FEB218FEB4700352C60 /* TAPageControl.m in Sources */,
 				CB50EDC12194174300485628 /* MenuAndItemsViewController.m in Sources */,
 				CB6FA0002190263900352C60 /* ScrollMenuView.m in Sources */,
+				CB50EDCA21956B6900485628 /* AuthorizationManager.m in Sources */,
 				CB6FA00C2191738A00352C60 /* PromptView.m in Sources */,
 				CB6F9FB021884D5200352C60 /* BaseViewController.m in Sources */,
+				CB50EDC72195584100485628 /* ImagePickViewController.m in Sources */,
 				CB6F9FBA218958CD00352C60 /* Item1ViewController.m in Sources */,
 				CB6F9F642186A6BC00352C60 /* AppDelegate.m in Sources */,
 				CB6F9FBD2189592500352C60 /* Item2ViewController.m in Sources */,

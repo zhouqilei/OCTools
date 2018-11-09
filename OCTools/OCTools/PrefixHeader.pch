@@ -24,10 +24,12 @@
 
 #import "RequestManager.h"
 #import "Reachability.h"
+#import "AuthorizationManager.h"
 
 #import <MJRefresh.h>
 #import <SDWebImage/UIImageView+WebCache.h>
 #import <AFNetworking.h>
+#import <TZImagePickerController.h>
 
 #import "UIView+Specification.h"
 #import "UIImage+Extension.h"

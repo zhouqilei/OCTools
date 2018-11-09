@@ -5,4 +5,5 @@ target 'OCTools' do
 pod 'MJRefresh'
 pod 'SDWebImage'
 pod 'AFNetworking'
+pod 'TZImagePickerController'
 end
