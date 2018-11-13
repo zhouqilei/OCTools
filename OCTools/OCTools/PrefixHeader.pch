@@ -36,6 +36,13 @@
 #import "UIImage+Extension.h"
 #import "UIColor+Extension.h"
 #import "UIView+Extension.h"
+#import "JSONModel.h"
+#import "Singleton.h"
+#import "UserInfo.h"
+#import "TRLib.h"
+#import "TKAlertCenter.h"
+
+
 //常用的系统变量预编译
 //App版本号
 #define kAppVersionStr [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
@@ -78,5 +85,23 @@
 
 //配置颜色方法缩写
 #define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a];
+
+// 存储单例
+#define USERDEFAULTS [NSUserDefaults standardUserDefaults]
+
+#define TR_Singleton [Singleton shareInstance]
+
+
+
+/*
+ *全局参数
+ */
+
+
+
+static NSString * const PLACEHOLDIMAGE = @"placehold-image";
+
+static NSString * const USERINFO  = @"userinfo";
+
 
 #endif /* PrefixHeader_pch */
