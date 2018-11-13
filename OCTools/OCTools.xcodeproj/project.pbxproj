@@ -16,6 +16,12 @@
 		CB50EDC72195584100485628 /* ImagePickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDC62195584100485628 /* ImagePickViewController.m */; };
 		CB50EDCA21956B6900485628 /* AuthorizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDC921956B6900485628 /* AuthorizationManager.m */; };
 		CB50EDCD219573F200485628 /* AuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDCC219573F200485628 /* AuthorizationViewController.m */; };
+		CB50EDD02199181800485628 /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDCF2199181800485628 /* AlertView.m */; };
+		CB50EDD321991C8A00485628 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDD221991C8A00485628 /* UIView+Extension.m */; };
+		CB50EDD621991DB900485628 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDD521991DB900485628 /* AlertViewController.m */; };
+		CB50EDD921994A6700485628 /* BaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDD821994A6700485628 /* BaseWebViewController.m */; };
+		CB50EDDC2199630100485628 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDDB2199630100485628 /* UIButton+Extension.m */; };
+		CB50EDDF2199650400485628 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDDE2199650400485628 /* NSString+Extension.m */; };
 		CB6F9F642186A6BC00352C60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9F632186A6BC00352C60 /* AppDelegate.m */; };
 		CB6F9F6A2186A6BC00352C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F682186A6BC00352C60 /* Main.storyboard */; };
 		CB6F9F6C2186A6C700352C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F6B2186A6C700352C60 /* Assets.xcassets */; };
@@ -93,6 +99,19 @@
 		CB50EDC921956B6900485628 /* AuthorizationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthorizationManager.m; sourceTree = "<group>"; };
 		CB50EDCB219573F200485628 /* AuthorizationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthorizationViewController.h; sourceTree = "<group>"; };
 		CB50EDCC219573F200485628 /* AuthorizationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthorizationViewController.m; sourceTree = "<group>"; };
+		CB50EDCE2199181800485628 /* AlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		CB50EDCF2199181800485628 /* AlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
+		CB50EDD121991C8A00485628 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		CB50EDD221991C8A00485628 /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		CB50EDD421991DB900485628 /* AlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
+		CB50EDD521991DB900485628 /* AlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
+		CB50EDD721994A6700485628 /* BaseWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseWebViewController.h; sourceTree = "<group>"; };
+		CB50EDD821994A6700485628 /* BaseWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseWebViewController.m; sourceTree = "<group>"; };
+		CB50EDDA2199630100485628 /* UIButton+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		CB50EDDB2199630100485628 /* UIButton+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		CB50EDDD2199650400485628 /* NSString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		CB50EDDE2199650400485628 /* NSString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		CB50EDE02199670B00485628 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		CB6F9F5F2186A6BC00352C60 /* OCTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6F9F622186A6BC00352C60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB6F9F632186A6BC00352C60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -212,6 +231,7 @@
 		B11A92B9112BD392F59A4821 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB50EDE02199670B00485628 /* Security.framework */,
 				CB50EDBA2193D33700485628 /* SystemConfiguration.framework */,
 				6108B33AF8512E8E33C25C32 /* libPods-OCTools.a */,
 			);
@@ -311,6 +331,8 @@
 				CB50EDBD21940EAA00485628 /* MenuAndItemsView.m */,
 				CB50EDC2219523D000485628 /* ImagesPickView.h */,
 				CB50EDC3219523D000485628 /* ImagesPickView.m */,
+				CB50EDCE2199181800485628 /* AlertView.h */,
+				CB50EDCF2199181800485628 /* AlertView.m */,
 			);
 			path = "基础视图";
 			sourceTree = "<group>";
@@ -324,6 +346,12 @@
 				CB6F9FB221894FE500352C60 /* UIImage+Extension.m */,
 				CB6F9FB42189526800352C60 /* UIColor+Extension.h */,
 				CB6F9FB52189526800352C60 /* UIColor+Extension.m */,
+				CB50EDD121991C8A00485628 /* UIView+Extension.h */,
+				CB50EDD221991C8A00485628 /* UIView+Extension.m */,
+				CB50EDDA2199630100485628 /* UIButton+Extension.h */,
+				CB50EDDB2199630100485628 /* UIButton+Extension.m */,
+				CB50EDDD2199650400485628 /* NSString+Extension.h */,
+				CB50EDDE2199650400485628 /* NSString+Extension.m */,
 			);
 			path = "扩展";
 			sourceTree = "<group>";
@@ -337,6 +365,8 @@
 				CB6F9FAB218838FE00352C60 /* BaseNavigationController.m */,
 				CB6F9FAE21884D5200352C60 /* BaseViewController.h */,
 				CB6F9FAF21884D5200352C60 /* BaseViewController.m */,
+				CB50EDD721994A6700485628 /* BaseWebViewController.h */,
+				CB50EDD821994A6700485628 /* BaseWebViewController.m */,
 			);
 			path = "基础控制器";
 			sourceTree = "<group>";
@@ -360,6 +390,8 @@
 				CB50EDC62195584100485628 /* ImagePickViewController.m */,
 				CB50EDCB219573F200485628 /* AuthorizationViewController.h */,
 				CB50EDCC219573F200485628 /* AuthorizationViewController.m */,
+				CB50EDD421991DB900485628 /* AlertViewController.h */,
+				CB50EDD521991DB900485628 /* AlertViewController.m */,
 			);
 			path = "控制器";
 			sourceTree = "<group>";
@@ -609,17 +641,21 @@
 				CB6FA0092191366F00352C60 /* RemindView.m in Sources */,
 				CB6F9FAC218838FE00352C60 /* BaseNavigationController.m in Sources */,
 				CB50EDC4219523D000485628 /* ImagesPickView.m in Sources */,
+				CB50EDDF2199650400485628 /* NSString+Extension.m in Sources */,
 				CB6F9FE9218FEB4700352C60 /* TAAnimatedDotView.m in Sources */,
 				CB6F9FA9218831C700352C60 /* CustomTabBar.m in Sources */,
 				CB6F9FF4218FF28200352C60 /* StarRateView.m in Sources */,
 				CB50EDBE21940EAA00485628 /* MenuAndItemsView.m in Sources */,
 				CB6F9FF1218FEB7F00352C60 /* CycleViewController.m in Sources */,
+				CB50EDD921994A6700485628 /* BaseWebViewController.m in Sources */,
 				CB6F9FC6218AA6EC00352C60 /* UpView.m in Sources */,
 				CB6F9F9D2186DAE100352C60 /* BaseTabBarController.m in Sources */,
 				CB6FA01321928D2F00352C60 /* RequestManager.m in Sources */,
 				CB6F9FB62189526800352C60 /* UIColor+Extension.m in Sources */,
 				CB6F9FE8218FEB4700352C60 /* TAAbstractDotView.m in Sources */,
 				CB6F9FFD2190214F00352C60 /* YCMenuView.m in Sources */,
+				CB50EDDC2199630100485628 /* UIButton+Extension.m in Sources */,
+				CB50EDD321991C8A00485628 /* UIView+Extension.m in Sources */,
 				CB50EDCD219573F200485628 /* AuthorizationViewController.m in Sources */,
 				CB6F9F992186AB2D00352C60 /* UIView+Specification.m in Sources */,
 				CB50EDB92193D2E400485628 /* Reachability.m in Sources */,
@@ -631,7 +667,9 @@
 				CB50EDCA21956B6900485628 /* AuthorizationManager.m in Sources */,
 				CB6FA00C2191738A00352C60 /* PromptView.m in Sources */,
 				CB6F9FB021884D5200352C60 /* BaseViewController.m in Sources */,
+				CB50EDD621991DB900485628 /* AlertViewController.m in Sources */,
 				CB50EDC72195584100485628 /* ImagePickViewController.m in Sources */,
+				CB50EDD02199181800485628 /* AlertView.m in Sources */,
 				CB6F9FBA218958CD00352C60 /* Item1ViewController.m in Sources */,
 				CB6F9F642186A6BC00352C60 /* AppDelegate.m in Sources */,
 				CB6F9FBD2189592500352C60 /* Item2ViewController.m in Sources */,

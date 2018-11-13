@@ -21,6 +21,7 @@
 #import "RemindView.h"
 #import "PromptView.h"
 #import "LoadingView.h"
+#import "AlertView.h"
 
 #import "RequestManager.h"
 #import "Reachability.h"
@@ -34,6 +35,7 @@
 #import "UIView+Specification.h"
 #import "UIImage+Extension.h"
 #import "UIColor+Extension.h"
+#import "UIView+Extension.h"
 //常用的系统变量预编译
 //App版本号
 #define kAppVersionStr [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
