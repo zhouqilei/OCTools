@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3027F84A219AA26D008E5A82 /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3027F830219AA26C008E5A82 /* NSArray+JSONModel.m */; };
+		3027F84B219AA26D008E5A82 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3027F833219AA26C008E5A82 /* JSONValueTransformer.m */; };
+		3027F84C219AA26D008E5A82 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3027F836219AA26C008E5A82 /* JSONKeyMapper.m */; };
+		3027F84D219AA26D008E5A82 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3027F838219AA26C008E5A82 /* JSONModel.m */; };
+		3027F84E219AA26D008E5A82 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 3027F83A219AA26C008E5A82 /* JSONModelError.m */; };
+		3027F84F219AA26D008E5A82 /* JSONModel+CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3027F83B219AA26C008E5A82 /* JSONModel+CoreData.m */; };
+		3027F850219AA26D008E5A82 /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 3027F83E219AA26C008E5A82 /* JSONModelArray.m */; };
+		3027F851219AA26D008E5A82 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3027F83F219AA26C008E5A82 /* JSONModelClassProperty.m */; };
+		3027F852219AA26D008E5A82 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3027F844219AA26C008E5A82 /* JSONHTTPClient.m */; };
+		3027F853219AA26D008E5A82 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3027F845219AA26C008E5A82 /* JSONAPI.m */; };
+		3027F854219AA26D008E5A82 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3027F849219AA26C008E5A82 /* JSONModel+networking.m */; };
 		85D78003C77D1D7FC58D832F /* libPods-OCTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6108B33AF8512E8E33C25C32 /* libPods-OCTools.a */; };
 		CB50EDB92193D2E400485628 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDB82193D2E400485628 /* Reachability.m */; };
 		CB50EDBB2193D33700485628 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB50EDBA2193D33700485628 /* SystemConfiguration.framework */; };
@@ -81,6 +92,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3027F830219AA26C008E5A82 /* NSArray+JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		3027F831219AA26C008E5A82 /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		3027F833219AA26C008E5A82 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		3027F834219AA26C008E5A82 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		3027F835219AA26C008E5A82 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		3027F836219AA26C008E5A82 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		3027F838219AA26C008E5A82 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		3027F839219AA26C008E5A82 /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
+		3027F83A219AA26C008E5A82 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		3027F83B219AA26C008E5A82 /* JSONModel+CoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+CoreData.m"; sourceTree = "<group>"; };
+		3027F83C219AA26C008E5A82 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		3027F83D219AA26C008E5A82 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		3027F83E219AA26C008E5A82 /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
+		3027F83F219AA26C008E5A82 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		3027F840219AA26C008E5A82 /* JSONModel+CoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+CoreData.h"; sourceTree = "<group>"; };
+		3027F841219AA26C008E5A82 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		3027F842219AA26C008E5A82 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		3027F844219AA26C008E5A82 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		3027F845219AA26C008E5A82 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		3027F846219AA26C008E5A82 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		3027F847219AA26C008E5A82 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		3027F848219AA26C008E5A82 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		3027F849219AA26C008E5A82 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
 		6108B33AF8512E8E33C25C32 /* libPods-OCTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		682E95383E02A4D49C1BC58B /* Pods-OCTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCTools/Pods-OCTools.debug.xcconfig"; sourceTree = "<group>"; };
 		C1C1B2A14FF4B056BB8CE8C3 /* Pods-OCTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCTools/Pods-OCTools.release.xcconfig"; sourceTree = "<group>"; };
@@ -219,6 +253,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3027F82E219AA26C008E5A82 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				3027F82F219AA26C008E5A82 /* JSONModelCategories */,
+				3027F832219AA26C008E5A82 /* JSONModelTransformations */,
+				3027F837219AA26C008E5A82 /* JSONModel */,
+				3027F842219AA26C008E5A82 /* JSONModelLib.h */,
+				3027F843219AA26C008E5A82 /* JSONModelNetworking */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		3027F82F219AA26C008E5A82 /* JSONModelCategories */ = {
+			isa = PBXGroup;
+			children = (
+				3027F830219AA26C008E5A82 /* NSArray+JSONModel.m */,
+				3027F831219AA26C008E5A82 /* NSArray+JSONModel.h */,
+			);
+			path = JSONModelCategories;
+			sourceTree = "<group>";
+		};
+		3027F832219AA26C008E5A82 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				3027F833219AA26C008E5A82 /* JSONValueTransformer.m */,
+				3027F834219AA26C008E5A82 /* JSONKeyMapper.h */,
+				3027F835219AA26C008E5A82 /* JSONValueTransformer.h */,
+				3027F836219AA26C008E5A82 /* JSONKeyMapper.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		3027F837219AA26C008E5A82 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				3027F838219AA26C008E5A82 /* JSONModel.m */,
+				3027F839219AA26C008E5A82 /* JSONModelArray.h */,
+				3027F83A219AA26C008E5A82 /* JSONModelError.m */,
+				3027F83B219AA26C008E5A82 /* JSONModel+CoreData.m */,
+				3027F83C219AA26C008E5A82 /* JSONModelClassProperty.h */,
+				3027F83D219AA26C008E5A82 /* JSONModel.h */,
+				3027F83E219AA26C008E5A82 /* JSONModelArray.m */,
+				3027F83F219AA26C008E5A82 /* JSONModelClassProperty.m */,
+				3027F840219AA26C008E5A82 /* JSONModel+CoreData.h */,
+				3027F841219AA26C008E5A82 /* JSONModelError.h */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		3027F843219AA26C008E5A82 /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				3027F844219AA26C008E5A82 /* JSONHTTPClient.m */,
+				3027F845219AA26C008E5A82 /* JSONAPI.m */,
+				3027F846219AA26C008E5A82 /* JSONModel+networking.h */,
+				3027F847219AA26C008E5A82 /* JSONHTTPClient.h */,
+				3027F848219AA26C008E5A82 /* JSONAPI.h */,
+				3027F849219AA26C008E5A82 /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
 		48DC029D1E42E473DC112C66 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -399,6 +495,7 @@
 		CB6F9FD7218FEAC300352C60 /* 第三方 */ = {
 			isa = PBXGroup;
 			children = (
+				3027F82E219AA26C008E5A82 /* JSONModel */,
 				CB6F9FD8218FEB4700352C60 /* SDCycleScrollView */,
 			);
 			path = "第三方";
@@ -580,16 +677,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-OCTools/Pods-OCTools-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
@@ -604,15 +697,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-OCTools-checkManifestLockResult.txt",
 			);
@@ -628,23 +717,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3027F853219AA26D008E5A82 /* JSONAPI.m in Sources */,
 				CB6F9FC9218ADC8800352C60 /* DatePickerView.m in Sources */,
 				CB6FA00F219182D500352C60 /* LoadingView.m in Sources */,
 				CB6F9FED218FEB4700352C60 /* SDCycleScrollView.m in Sources */,
 				CB6F9FEA218FEB4700352C60 /* TADotView.m in Sources */,
+				3027F84A219AA26D008E5A82 /* NSArray+JSONModel.m in Sources */,
 				CB6F9FF72190145400352C60 /* StarRateViewController.m in Sources */,
 				CB6F9FD0218BEAEA00352C60 /* AddressPickView.m in Sources */,
 				CB6FA003219034AF00352C60 /* ScrollMenuViewController.m in Sources */,
 				CB6F9FEC218FEB4700352C60 /* SDCollectionViewCell.m in Sources */,
+				3027F84E219AA26D008E5A82 /* JSONModelError.m in Sources */,
 				CB6F9FC0218A83B800352C60 /* BaseTableView.m in Sources */,
 				CB6F9F722186A6C700352C60 /* main.m in Sources */,
+				3027F84B219AA26D008E5A82 /* JSONValueTransformer.m in Sources */,
 				CB6FA0092191366F00352C60 /* RemindView.m in Sources */,
 				CB6F9FAC218838FE00352C60 /* BaseNavigationController.m in Sources */,
 				CB50EDC4219523D000485628 /* ImagesPickView.m in Sources */,
+				3027F850219AA26D008E5A82 /* JSONModelArray.m in Sources */,
 				CB50EDDF2199650400485628 /* NSString+Extension.m in Sources */,
 				CB6F9FE9218FEB4700352C60 /* TAAnimatedDotView.m in Sources */,
 				CB6F9FA9218831C700352C60 /* CustomTabBar.m in Sources */,
+				3027F852219AA26D008E5A82 /* JSONHTTPClient.m in Sources */,
 				CB6F9FF4218FF28200352C60 /* StarRateView.m in Sources */,
+				3027F84D219AA26D008E5A82 /* JSONModel.m in Sources */,
 				CB50EDBE21940EAA00485628 /* MenuAndItemsView.m in Sources */,
 				CB6F9FF1218FEB7F00352C60 /* CycleViewController.m in Sources */,
 				CB50EDD921994A6700485628 /* BaseWebViewController.m in Sources */,
@@ -652,6 +748,7 @@
 				CB6F9F9D2186DAE100352C60 /* BaseTabBarController.m in Sources */,
 				CB6FA01321928D2F00352C60 /* RequestManager.m in Sources */,
 				CB6F9FB62189526800352C60 /* UIColor+Extension.m in Sources */,
+				3027F84F219AA26D008E5A82 /* JSONModel+CoreData.m in Sources */,
 				CB6F9FE8218FEB4700352C60 /* TAAbstractDotView.m in Sources */,
 				CB6F9FFD2190214F00352C60 /* YCMenuView.m in Sources */,
 				CB50EDDC2199630100485628 /* UIButton+Extension.m in Sources */,
@@ -660,6 +757,7 @@
 				CB6F9F992186AB2D00352C60 /* UIView+Specification.m in Sources */,
 				CB50EDB92193D2E400485628 /* Reachability.m in Sources */,
 				CB6F9FEE218FEB4700352C60 /* UIView+SDExtension.m in Sources */,
+				3027F854219AA26D008E5A82 /* JSONModel+networking.m in Sources */,
 				CB6F9FFA21901F9C00352C60 /* PopMenuView.m in Sources */,
 				CB6F9FEB218FEB4700352C60 /* TAPageControl.m in Sources */,
 				CB50EDC12194174300485628 /* MenuAndItemsViewController.m in Sources */,
@@ -669,9 +767,11 @@
 				CB6F9FB021884D5200352C60 /* BaseViewController.m in Sources */,
 				CB50EDD621991DB900485628 /* AlertViewController.m in Sources */,
 				CB50EDC72195584100485628 /* ImagePickViewController.m in Sources */,
+				3027F851219AA26D008E5A82 /* JSONModelClassProperty.m in Sources */,
 				CB50EDD02199181800485628 /* AlertView.m in Sources */,
 				CB6F9FBA218958CD00352C60 /* Item1ViewController.m in Sources */,
 				CB6F9F642186A6BC00352C60 /* AppDelegate.m in Sources */,
+				3027F84C219AA26D008E5A82 /* JSONKeyMapper.m in Sources */,
 				CB6F9FBD2189592500352C60 /* Item2ViewController.m in Sources */,
 				CB6F9FB321894FE500352C60 /* UIImage+Extension.m in Sources */,
 			);
