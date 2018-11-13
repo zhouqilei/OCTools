@@ -40,6 +40,7 @@
     self.search.delegate = self;
     //设置搜索
     self.searchT = [[UITextField alloc]initWithFrame:CGRectMake(0, self.mapView.maxY - HeightForNagivationBarAndStatusBar, UI_SCREEN_WIDTH, 40)];
+    self.searchT.backgroundColor = [UIColor whiteColor];
     self.searchT.placeholder = @"请输入搜索内容";
     self.searchT.delegate = self;
     [self.view addSubview:self.searchT];
@@ -50,9 +51,27 @@
     [self.view addSubview:self.tab];
     self.results = [NSArray array];
     
-    
+}
+#pragma mark - 获取当前定位城市
+- (void)getLocationCity {
+    //地图中心经纬度
+    CLLocationCoordinate2D center = self.mapView.region.center;
+    //创建反地理编码搜索
+    AMapReGeocodeSearchRequest *regeo = [[AMapReGeocodeSearchRequest alloc]init];
+    regeo.location = [AMapGeoPoint locationWithLatitude:center.latitude longitude:center.longitude];
+    regeo.requireExtension = YES;
+    [self.search AMapReGoecodeSearch:regeo];
     
 }
+#pragma mark - 定位更新
+- (void)mapView:(MAMapView *)mapView didUpdateUserLocation:(MAUserLocation *)userLocation updatingLocation:(BOOL)updatingLocation {
+    [self getLocationCity];
+}
+#pragma mark - 结束定位
+- (void)mapViewDidStopLocatingUser:(MAMapView *)mapView {
+    [self getLocationCity];
+}
+
 #pragma mark - 启动地图定位蓝点
 - (void)showUserLocation {
     self.mapView.showsUserLocation = YES;
@@ -118,6 +137,11 @@
     self.results = response.pois;
     [self.tab reloadData];
 }
+- (void)onReGeocodeSearchDone:(AMapReGeocodeSearchRequest *)request response:(AMapReGeocodeSearchResponse *)response {
+    if (response.regeocode != nil) {
+        NSLog(@"当前定位城市为：%@",response.regeocode.addressComponent.city);
+    }
+}
 #pragma mark - 结果列表
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.results.count;
@@ -128,8 +152,12 @@
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
     }
     AMapPOI *poi = self.results[indexPath.row];
-    cell.textLabel.text = poi.address;
+    cell.textLabel.text = poi.name;
     return cell;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    AMapPOI *poi = self.results[indexPath.row];
+    NSLog(@"%@",poi.location);
 }
 #pragma mark - UITextViewDelegate
 - (void)textFieldDidEndEditing:(UITextField *)textField {
