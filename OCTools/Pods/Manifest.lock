@@ -14,6 +14,14 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - AMap2DMap-NO-IDFA (5.6.0):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - AMapFoundation-NO-IDFA (1.5.3)
+  - AMapLocation-NO-IDFA (2.6.1):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - AMapSearch-NO-IDFA (6.1.1):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - IQKeyboardManager (6.1.1)
   - MJRefresh (3.1.15.6)
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
@@ -22,6 +30,10 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - AMap2DMap-NO-IDFA
+  - AMapLocation-NO-IDFA
+  - AMapSearch-NO-IDFA
+  - IQKeyboardManager
   - MJRefresh
   - SDWebImage
   - TZImagePickerController
@@ -29,16 +41,26 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - AMap2DMap-NO-IDFA
+    - AMapFoundation-NO-IDFA
+    - AMapLocation-NO-IDFA
+    - AMapSearch-NO-IDFA
+    - IQKeyboardManager
     - MJRefresh
     - SDWebImage
     - TZImagePickerController
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AMap2DMap-NO-IDFA: 277965383679f1a4676df7e1a0439a1e14d0599a
+  AMapFoundation-NO-IDFA: 128ccf9249abc9de1661b935f01d116700583691
+  AMapLocation-NO-IDFA: ffd69b8b88f553d0b252d4967bf301ad2afff9c0
+  AMapSearch-NO-IDFA: 848e148a31876217a1094e6be3448e95d1688b6a
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
   MJRefresh: 0efa19656679d70a0f47cbe76e56c2271fe53a97
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   TZImagePickerController: c6736038f5016a8be14132fd07e4e92ce6496385
 
-PODFILE CHECKSUM: dc16cb3da152e1038fe5c01f571f3270c3e0514d
+PODFILE CHECKSUM: 429bbd170ae869c4d50d4664e07f2e4821432df0
 
 COCOAPODS: 1.5.3

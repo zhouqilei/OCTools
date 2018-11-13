@@ -42,6 +42,7 @@
 		CB50EDD921994A6700485628 /* BaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDD821994A6700485628 /* BaseWebViewController.m */; };
 		CB50EDDC2199630100485628 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDDB2199630100485628 /* UIButton+Extension.m */; };
 		CB50EDDF2199650400485628 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDDE2199650400485628 /* NSString+Extension.m */; };
+		CB50EDE7219ABE3200485628 /* AMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDE5219ABE3200485628 /* AMapViewController.m */; };
 		CB6F9F642186A6BC00352C60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9F632186A6BC00352C60 /* AppDelegate.m */; };
 		CB6F9F6A2186A6BC00352C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F682186A6BC00352C60 /* Main.storyboard */; };
 		CB6F9F6C2186A6C700352C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F6B2186A6C700352C60 /* Assets.xcassets */; };
@@ -175,6 +176,8 @@
 		CB50EDDD2199650400485628 /* NSString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		CB50EDDE2199650400485628 /* NSString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		CB50EDE02199670B00485628 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CB50EDE5219ABE3200485628 /* AMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapViewController.m; sourceTree = "<group>"; };
+		CB50EDE6219ABE3200485628 /* AMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMapViewController.h; sourceTree = "<group>"; };
 		CB6F9F5F2186A6BC00352C60 /* OCTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6F9F622186A6BC00352C60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB6F9F632186A6BC00352C60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -530,6 +533,8 @@
 		CB6F9FB7218958AD00352C60 /* 控制器 */ = {
 			isa = PBXGroup;
 			children = (
+				CB50EDE6219ABE3200485628 /* AMapViewController.h */,
+				CB50EDE5219ABE3200485628 /* AMapViewController.m */,
 				CB6F9FB8218958CD00352C60 /* Item1ViewController.h */,
 				CB6F9FB9218958CD00352C60 /* Item1ViewController.m */,
 				CB6F9FBB2189592500352C60 /* Item2ViewController.h */,
@@ -744,11 +749,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-OCTools/Pods-OCTools-resources.sh",
+				"${PODS_ROOT}/AMap2DMap-NO-IDFA/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
 			);
@@ -827,6 +836,7 @@
 				3027F864219AA483008E5A82 /* TRExtendsClass.m in Sources */,
 				CB50EDCD219573F200485628 /* AuthorizationViewController.m in Sources */,
 				CB6F9F992186AB2D00352C60 /* UIView+Specification.m in Sources */,
+				CB50EDE7219ABE3200485628 /* AMapViewController.m in Sources */,
 				CB50EDB92193D2E400485628 /* Reachability.m in Sources */,
 				CB6F9FEE218FEB4700352C60 /* UIView+SDExtension.m in Sources */,
 				3027F854219AA26D008E5A82 /* JSONModel+networking.m in Sources */,

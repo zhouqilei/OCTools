@@ -2,8 +2,12 @@
  platform :ios, '9.0'
 
 target 'OCTools' do
-pod 'MJRefresh'
-pod 'SDWebImage'
-pod 'AFNetworking'
-pod 'TZImagePickerController'
+    pod 'MJRefresh'#刷新
+    pod 'SDWebImage'#图片
+    pod 'AFNetworking'#网络请求
+    pod 'TZImagePickerController'#图片选择器
+    pod 'AMap2DMap-NO-IDFA'#2D高德地图
+    pod 'AMapSearch-NO-IDFA'#高德地图搜索
+    pod 'AMapLocation-NO-IDFA'#高德地图定位
+    pod 'IQKeyboardManager'#键盘管理
 end

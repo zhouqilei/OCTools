@@ -40,7 +40,11 @@
     //添加网络变化的监听
     self.coon = [Reachability reachabilityForInternetConnection];
     [self.coon startNotifier];
-    
+    /**配置高德地图*/
+    //配置HTTPS可用
+    [AMapServices sharedServices].enableHTTPS = YES;
+    //配置高德地图key
+    [AMapServices sharedServices].apiKey = @"095c30bf13a270682b60572d310048a8";
     return YES;
 }
 
