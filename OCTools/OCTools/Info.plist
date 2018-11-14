@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleDisplayName</key>
+	<string>OCTools</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>如果不同意将无法使用定位</string>
 	<key>NSLocationAlwaysUsageDescription</key>

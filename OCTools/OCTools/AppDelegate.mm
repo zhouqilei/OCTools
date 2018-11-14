@@ -10,7 +10,7 @@
 #import "BaseNavigationController.h"
 #import "Item1ViewController.h"
 #import "Item2ViewController.h"
-@interface AppDelegate ()
+@interface AppDelegate ()<BMKGeneralDelegate>
 
 @end
 
@@ -45,6 +45,13 @@
     [AMapServices sharedServices].enableHTTPS = YES;
     //配置高德地图key
     [AMapServices sharedServices].apiKey = @"095c30bf13a270682b60572d310048a8";
+    /**配置百度地图 需引入头文件（<BaiduMapAPI_Map/BMKMapComponent.h>）*/
+    BMKMapManager *manager = [[BMKMapManager alloc]init];
+    BOOL ret = [manager start:@"QyyYNtdIRObLlCduZjBY7N2RkOOCcqPC" generalDelegate:self];
+    if (!ret) {
+        NSLog(@"百度地图开启失败");
+    }
+    
     return YES;
 }
 

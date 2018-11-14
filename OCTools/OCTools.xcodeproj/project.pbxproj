@@ -43,7 +43,14 @@
 		CB50EDDC2199630100485628 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDDB2199630100485628 /* UIButton+Extension.m */; };
 		CB50EDDF2199650400485628 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDDE2199650400485628 /* NSString+Extension.m */; };
 		CB50EDE7219ABE3200485628 /* AMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDE5219ABE3200485628 /* AMapViewController.m */; };
-		CB6F9F642186A6BC00352C60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9F632186A6BC00352C60 /* AppDelegate.m */; };
+		CB50EDED219BBD0500485628 /* BaiduMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDEC219BBD0500485628 /* BaiduMapViewController.m */; };
+		CB50EDF0219BBD8700485628 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB50EDEE219BBD8700485628 /* libcrypto.a */; };
+		CB50EDF1219BBD8700485628 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB50EDEF219BBD8700485628 /* libssl.a */; };
+		CB50EDF8219BF01700485628 /* CustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDF7219BF01700485628 /* CustomLabel.m */; };
+		CB50EDFB219BF16B00485628 /* ChildControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDFA219BF16B00485628 /* ChildControlViewController.m */; };
+		CB50EDFE219BF46A00485628 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDFD219BF46A00485628 /* CustomTextField.m */; };
+		CB50EE01219BFB7A00485628 /* CustomTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EE00219BFB7A00485628 /* CustomTextView.m */; };
+		CB6F9F642186A6BC00352C60 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9F632186A6BC00352C60 /* AppDelegate.mm */; };
 		CB6F9F6A2186A6BC00352C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F682186A6BC00352C60 /* Main.storyboard */; };
 		CB6F9F6C2186A6C700352C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F6B2186A6C700352C60 /* Assets.xcassets */; };
 		CB6F9F6F2186A6C700352C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F6D2186A6C700352C60 /* LaunchScreen.storyboard */; };
@@ -178,9 +185,21 @@
 		CB50EDE02199670B00485628 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		CB50EDE5219ABE3200485628 /* AMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMapViewController.m; sourceTree = "<group>"; };
 		CB50EDE6219ABE3200485628 /* AMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMapViewController.h; sourceTree = "<group>"; };
+		CB50EDEB219BBD0500485628 /* BaiduMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaiduMapViewController.h; sourceTree = "<group>"; };
+		CB50EDEC219BBD0500485628 /* BaiduMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiduMapViewController.m; sourceTree = "<group>"; };
+		CB50EDEE219BBD8700485628 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = Pods/BaiduMapKit/BaiduMapKit/thirdlibs/libcrypto.a; sourceTree = "<group>"; };
+		CB50EDEF219BBD8700485628 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = Pods/BaiduMapKit/BaiduMapKit/thirdlibs/libssl.a; sourceTree = "<group>"; };
+		CB50EDF6219BF01700485628 /* CustomLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomLabel.h; sourceTree = "<group>"; };
+		CB50EDF7219BF01700485628 /* CustomLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomLabel.m; sourceTree = "<group>"; };
+		CB50EDF9219BF16B00485628 /* ChildControlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChildControlViewController.h; sourceTree = "<group>"; };
+		CB50EDFA219BF16B00485628 /* ChildControlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChildControlViewController.m; sourceTree = "<group>"; };
+		CB50EDFC219BF46A00485628 /* CustomTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
+		CB50EDFD219BF46A00485628 /* CustomTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
+		CB50EDFF219BFB7A00485628 /* CustomTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTextView.h; sourceTree = "<group>"; };
+		CB50EE00219BFB7A00485628 /* CustomTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTextView.m; sourceTree = "<group>"; };
 		CB6F9F5F2186A6BC00352C60 /* OCTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6F9F622186A6BC00352C60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CB6F9F632186A6BC00352C60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB6F9F632186A6BC00352C60 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		CB6F9F692186A6BC00352C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB6F9F6B2186A6C700352C60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB6F9F6E2186A6C700352C60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -263,6 +282,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB50EDF0219BBD8700485628 /* libcrypto.a in Frameworks */,
+				CB50EDF1219BBD8700485628 /* libssl.a in Frameworks */,
 				CB50EDBB2193D33700485628 /* SystemConfiguration.framework in Frameworks */,
 				85D78003C77D1D7FC58D832F /* libPods-OCTools.a in Frameworks */,
 			);
@@ -389,11 +410,26 @@
 		B11A92B9112BD392F59A4821 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB50EDEE219BBD8700485628 /* libcrypto.a */,
+				CB50EDEF219BBD8700485628 /* libssl.a */,
 				CB50EDE02199670B00485628 /* Security.framework */,
 				CB50EDBA2193D33700485628 /* SystemConfiguration.framework */,
 				6108B33AF8512E8E33C25C32 /* libPods-OCTools.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB50EDF5219BEFEB00485628 /* 子类控件 */ = {
+			isa = PBXGroup;
+			children = (
+				CB50EDF6219BF01700485628 /* CustomLabel.h */,
+				CB50EDF7219BF01700485628 /* CustomLabel.m */,
+				CB50EDFC219BF46A00485628 /* CustomTextField.h */,
+				CB50EDFD219BF46A00485628 /* CustomTextField.m */,
+				CB50EDFF219BFB7A00485628 /* CustomTextView.h */,
+				CB50EE00219BFB7A00485628 /* CustomTextView.m */,
+			);
+			path = "子类控件";
 			sourceTree = "<group>";
 		};
 		CB6F9F562186A6BC00352C60 = {
@@ -421,6 +457,7 @@
 		CB6F9F612186A6BC00352C60 /* OCTools */ = {
 			isa = PBXGroup;
 			children = (
+				CB50EDF5219BEFEB00485628 /* 子类控件 */,
 				3027F855219AA483008E5A82 /* TRPackage */,
 				CB6FA01021928D0200352C60 /* 管理类 */,
 				CB6F9FD7218FEAC300352C60 /* 第三方 */,
@@ -429,14 +466,14 @@
 				CB6F9F952186AA0100352C60 /* 扩展 */,
 				CB6F9F942186AA0100352C60 /* 基础视图 */,
 				CB6F9F622186A6BC00352C60 /* AppDelegate.h */,
-				CB6F9F632186A6BC00352C60 /* AppDelegate.m */,
+				CB6F9F632186A6BC00352C60 /* AppDelegate.mm */,
 				CB6F9F682186A6BC00352C60 /* Main.storyboard */,
 				CB6F9F6B2186A6C700352C60 /* Assets.xcassets */,
 				CB6F9F6D2186A6C700352C60 /* LaunchScreen.storyboard */,
 				CB6F9F702186A6C700352C60 /* Info.plist */,
 				CB6F9FCC218BE9E200352C60 /* address.json */,
-				CB6F9F712186A6C700352C60 /* main.m */,
 				CB6F9FAD21883CFB00352C60 /* PrefixHeader.pch */,
+				CB6F9F712186A6C700352C60 /* main.m */,
 			);
 			path = OCTools;
 			sourceTree = "<group>";
@@ -553,6 +590,10 @@
 				CB50EDCC219573F200485628 /* AuthorizationViewController.m */,
 				CB50EDD421991DB900485628 /* AlertViewController.h */,
 				CB50EDD521991DB900485628 /* AlertViewController.m */,
+				CB50EDEB219BBD0500485628 /* BaiduMapViewController.h */,
+				CB50EDEC219BBD0500485628 /* BaiduMapViewController.m */,
+				CB50EDF9219BF16B00485628 /* ChildControlViewController.h */,
+				CB50EDFA219BF16B00485628 /* ChildControlViewController.m */,
 			);
 			path = "控制器";
 			sourceTree = "<group>";
@@ -810,11 +851,14 @@
 				3027F866219AA483008E5A82 /* TRClassMethod.m in Sources */,
 				CB6F9F722186A6C700352C60 /* main.m in Sources */,
 				3027F84B219AA26D008E5A82 /* JSONValueTransformer.m in Sources */,
+				CB50EDFB219BF16B00485628 /* ChildControlViewController.m in Sources */,
+				CB50EDED219BBD0500485628 /* BaiduMapViewController.m in Sources */,
 				CB6FA0092191366F00352C60 /* RemindView.m in Sources */,
 				CB6F9FAC218838FE00352C60 /* BaseNavigationController.m in Sources */,
 				CB50EDC4219523D000485628 /* ImagesPickView.m in Sources */,
 				3027F863219AA483008E5A82 /* TRMacro.m in Sources */,
 				3027F850219AA26D008E5A82 /* JSONModelArray.m in Sources */,
+				CB50EDF8219BF01700485628 /* CustomLabel.m in Sources */,
 				CB50EDDF2199650400485628 /* NSString+Extension.m in Sources */,
 				3027F86C219AA48E008E5A82 /* TKAlertCenter.m in Sources */,
 				CB6F9FE9218FEB4700352C60 /* TAAnimatedDotView.m in Sources */,
@@ -828,6 +872,7 @@
 				CB6F9FC6218AA6EC00352C60 /* UpView.m in Sources */,
 				CB6F9F9D2186DAE100352C60 /* BaseTabBarController.m in Sources */,
 				CB6FA01321928D2F00352C60 /* RequestManager.m in Sources */,
+				CB50EDFE219BF46A00485628 /* CustomTextField.m in Sources */,
 				CB6F9FB62189526800352C60 /* UIColor+Extension.m in Sources */,
 				3027F84F219AA26D008E5A82 /* JSONModel+CoreData.m in Sources */,
 				CB6F9FE8218FEB4700352C60 /* TAAbstractDotView.m in Sources */,
@@ -851,11 +896,12 @@
 				CB6FA00C2191738A00352C60 /* PromptView.m in Sources */,
 				CB6F9FB021884D5200352C60 /* BaseViewController.m in Sources */,
 				CB50EDD621991DB900485628 /* AlertViewController.m in Sources */,
+				CB50EE01219BFB7A00485628 /* CustomTextView.m in Sources */,
 				CB50EDC72195584100485628 /* ImagePickViewController.m in Sources */,
 				3027F851219AA26D008E5A82 /* JSONModelClassProperty.m in Sources */,
 				CB50EDD02199181800485628 /* AlertView.m in Sources */,
 				CB6F9FBA218958CD00352C60 /* Item1ViewController.m in Sources */,
-				CB6F9F642186A6BC00352C60 /* AppDelegate.m in Sources */,
+				CB6F9F642186A6BC00352C60 /* AppDelegate.mm in Sources */,
 				3027F84C219AA26D008E5A82 /* JSONKeyMapper.m in Sources */,
 				3027F873219AA4CE008E5A82 /* Singleton.m in Sources */,
 				CB6F9FBD2189592500352C60 /* Item2ViewController.m in Sources */,
@@ -1033,6 +1079,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EL6YKYR78P;
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/OCTools/PrefixHeader.pch";
 				INFOPLIST_FILE = OCTools/Info.plist;
@@ -1040,6 +1087,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/BaiduMapKit/BaiduMapKit/thirdlibs",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zql.TestDemo.OCTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1054,6 +1105,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EL6YKYR78P;
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/OCTools/PrefixHeader.pch";
 				INFOPLIST_FILE = OCTools/Info.plist;
@@ -1061,6 +1113,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/BaiduMapKit/BaiduMapKit/thirdlibs",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zql.TestDemo.OCTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";

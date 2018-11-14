@@ -85,7 +85,7 @@
     
 }
 #pragma mark - 使用大头针
-- (void)addPointAnnotationWithCoordinate:(CLLocationCoordinate2D)coordinate Title:(NSString *)title subTitle:(NSString *)subTitle{
+- (void)addPointAnnotationWithCoordinate:(CLLocationCoordinate2D)coordinate Title:(NSString *)title subTitle:(NSString *)subTitle {
     MAPointAnnotation *po = [[MAPointAnnotation alloc]init];
     po.coordinate = coordinate;
     po.title = title;
