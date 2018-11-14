@@ -21,6 +21,7 @@ PODS:
     - AMapFoundation-NO-IDFA (~> 1.4)
   - AMapSearch-NO-IDFA (6.1.1):
     - AMapFoundation-NO-IDFA (~> 1.4)
+  - BaiduMapKit (4.1.1)
   - IQKeyboardManager (6.1.1)
   - MJRefresh (3.1.15.6)
   - SDWebImage (4.4.2):
@@ -33,6 +34,7 @@ DEPENDENCIES:
   - AMap2DMap-NO-IDFA
   - AMapLocation-NO-IDFA
   - AMapSearch-NO-IDFA
+  - BaiduMapKit
   - IQKeyboardManager
   - MJRefresh
   - SDWebImage
@@ -45,6 +47,7 @@ SPEC REPOS:
     - AMapFoundation-NO-IDFA
     - AMapLocation-NO-IDFA
     - AMapSearch-NO-IDFA
+    - BaiduMapKit
     - IQKeyboardManager
     - MJRefresh
     - SDWebImage
@@ -56,11 +59,12 @@ SPEC CHECKSUMS:
   AMapFoundation-NO-IDFA: 128ccf9249abc9de1661b935f01d116700583691
   AMapLocation-NO-IDFA: ffd69b8b88f553d0b252d4967bf301ad2afff9c0
   AMapSearch-NO-IDFA: 848e148a31876217a1094e6be3448e95d1688b6a
+  BaiduMapKit: 51bba432a28316680676b4d453a70e5031f3a7eb
   IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
   MJRefresh: 0efa19656679d70a0f47cbe76e56c2271fe53a97
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   TZImagePickerController: c6736038f5016a8be14132fd07e4e92ce6496385
 
-PODFILE CHECKSUM: 429bbd170ae869c4d50d4664e07f2e4821432df0
+PODFILE CHECKSUM: c7dbf394a01d1b0a88ab11bca03bc61ee0b4ed42
 
 COCOAPODS: 1.5.3

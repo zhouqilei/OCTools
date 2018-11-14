@@ -10,4 +10,5 @@ target 'OCTools' do
     pod 'AMapSearch-NO-IDFA'#高德地图搜索
     pod 'AMapLocation-NO-IDFA'#高德地图定位
     pod 'IQKeyboardManager'#键盘管理
+    pod 'BaiduMapKit'#百度地图
 end
