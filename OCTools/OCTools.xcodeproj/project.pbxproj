@@ -50,6 +50,12 @@
 		CB50EDFB219BF16B00485628 /* ChildControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDFA219BF16B00485628 /* ChildControlViewController.m */; };
 		CB50EDFE219BF46A00485628 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDFD219BF46A00485628 /* CustomTextField.m */; };
 		CB50EE01219BFB7A00485628 /* CustomTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EE00219BFB7A00485628 /* CustomTextView.m */; };
+		CB50EE0D219D1B1400485628 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EE04219D1B1400485628 /* FMDatabase.m */; };
+		CB50EE0E219D1B1400485628 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EE06219D1B1400485628 /* FMDatabaseAdditions.m */; };
+		CB50EE0F219D1B1400485628 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EE08219D1B1400485628 /* FMDatabasePool.m */; };
+		CB50EE10219D1B1400485628 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EE0A219D1B1400485628 /* FMDatabaseQueue.m */; };
+		CB50EE11219D1B1400485628 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EE0C219D1B1400485628 /* FMResultSet.m */; };
+		CB50EE14219D1B6500485628 /* PreferenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EE13219D1B6500485628 /* PreferenceManager.m */; };
 		CB6F9F642186A6BC00352C60 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9F632186A6BC00352C60 /* AppDelegate.mm */; };
 		CB6F9F6A2186A6BC00352C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F682186A6BC00352C60 /* Main.storyboard */; };
 		CB6F9F6C2186A6C700352C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F6B2186A6C700352C60 /* Assets.xcassets */; };
@@ -197,6 +203,18 @@
 		CB50EDFD219BF46A00485628 /* CustomTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
 		CB50EDFF219BFB7A00485628 /* CustomTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTextView.h; sourceTree = "<group>"; };
 		CB50EE00219BFB7A00485628 /* CustomTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTextView.m; sourceTree = "<group>"; };
+		CB50EE03219D1B1400485628 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		CB50EE04219D1B1400485628 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		CB50EE05219D1B1400485628 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		CB50EE06219D1B1400485628 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		CB50EE07219D1B1400485628 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		CB50EE08219D1B1400485628 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		CB50EE09219D1B1400485628 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		CB50EE0A219D1B1400485628 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		CB50EE0B219D1B1400485628 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		CB50EE0C219D1B1400485628 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		CB50EE12219D1B6500485628 /* PreferenceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceManager.h; sourceTree = "<group>"; };
+		CB50EE13219D1B6500485628 /* PreferenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceManager.m; sourceTree = "<group>"; };
 		CB6F9F5F2186A6BC00352C60 /* OCTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6F9F622186A6BC00352C60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB6F9F632186A6BC00352C60 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
@@ -432,6 +450,23 @@
 			path = "子类控件";
 			sourceTree = "<group>";
 		};
+		CB50EE02219D1B1400485628 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				CB50EE03219D1B1400485628 /* FMDatabase.h */,
+				CB50EE04219D1B1400485628 /* FMDatabase.m */,
+				CB50EE05219D1B1400485628 /* FMDatabaseAdditions.h */,
+				CB50EE06219D1B1400485628 /* FMDatabaseAdditions.m */,
+				CB50EE07219D1B1400485628 /* FMDatabasePool.h */,
+				CB50EE08219D1B1400485628 /* FMDatabasePool.m */,
+				CB50EE09219D1B1400485628 /* FMDatabaseQueue.h */,
+				CB50EE0A219D1B1400485628 /* FMDatabaseQueue.m */,
+				CB50EE0B219D1B1400485628 /* FMResultSet.h */,
+				CB50EE0C219D1B1400485628 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
 		CB6F9F562186A6BC00352C60 = {
 			isa = PBXGroup;
 			children = (
@@ -601,6 +636,7 @@
 		CB6F9FD7218FEAC300352C60 /* 第三方 */ = {
 			isa = PBXGroup;
 			children = (
+				CB50EE02219D1B1400485628 /* fmdb */,
 				3027F867219AA48E008E5A82 /* TKAlert */,
 				3027F82E219AA26C008E5A82 /* JSONModel */,
 				CB6F9FD8218FEB4700352C60 /* SDCycleScrollView */,
@@ -640,6 +676,8 @@
 		CB6FA01021928D0200352C60 /* 管理类 */ = {
 			isa = PBXGroup;
 			children = (
+				CB50EE12219D1B6500485628 /* PreferenceManager.h */,
+				CB50EE13219D1B6500485628 /* PreferenceManager.m */,
 				3027F870219AA4CE008E5A82 /* Singleton.h */,
 				3027F871219AA4CE008E5A82 /* Singleton.m */,
 				3027F86F219AA4CE008E5A82 /* UserInfo.h */,
@@ -843,6 +881,7 @@
 				3027F84A219AA26D008E5A82 /* NSArray+JSONModel.m in Sources */,
 				CB6F9FF72190145400352C60 /* StarRateViewController.m in Sources */,
 				CB6F9FD0218BEAEA00352C60 /* AddressPickView.m in Sources */,
+				CB50EE10219D1B1400485628 /* FMDatabaseQueue.m in Sources */,
 				CB6FA003219034AF00352C60 /* ScrollMenuViewController.m in Sources */,
 				CB6F9FEC218FEB4700352C60 /* SDCollectionViewCell.m in Sources */,
 				3027F84E219AA26D008E5A82 /* JSONModelError.m in Sources */,
@@ -852,6 +891,7 @@
 				CB6F9F722186A6C700352C60 /* main.m in Sources */,
 				3027F84B219AA26D008E5A82 /* JSONValueTransformer.m in Sources */,
 				CB50EDFB219BF16B00485628 /* ChildControlViewController.m in Sources */,
+				CB50EE0D219D1B1400485628 /* FMDatabase.m in Sources */,
 				CB50EDED219BBD0500485628 /* BaiduMapViewController.m in Sources */,
 				CB6FA0092191366F00352C60 /* RemindView.m in Sources */,
 				CB6F9FAC218838FE00352C60 /* BaseNavigationController.m in Sources */,
@@ -862,6 +902,7 @@
 				CB50EDDF2199650400485628 /* NSString+Extension.m in Sources */,
 				3027F86C219AA48E008E5A82 /* TKAlertCenter.m in Sources */,
 				CB6F9FE9218FEB4700352C60 /* TAAnimatedDotView.m in Sources */,
+				CB50EE11219D1B1400485628 /* FMResultSet.m in Sources */,
 				CB6F9FA9218831C700352C60 /* CustomTabBar.m in Sources */,
 				3027F852219AA26D008E5A82 /* JSONHTTPClient.m in Sources */,
 				CB6F9FF4218FF28200352C60 /* StarRateView.m in Sources */,
@@ -870,12 +911,15 @@
 				CB6F9FF1218FEB7F00352C60 /* CycleViewController.m in Sources */,
 				CB50EDD921994A6700485628 /* BaseWebViewController.m in Sources */,
 				CB6F9FC6218AA6EC00352C60 /* UpView.m in Sources */,
+				CB50EE0F219D1B1400485628 /* FMDatabasePool.m in Sources */,
+				CB50EE14219D1B6500485628 /* PreferenceManager.m in Sources */,
 				CB6F9F9D2186DAE100352C60 /* BaseTabBarController.m in Sources */,
 				CB6FA01321928D2F00352C60 /* RequestManager.m in Sources */,
 				CB50EDFE219BF46A00485628 /* CustomTextField.m in Sources */,
 				CB6F9FB62189526800352C60 /* UIColor+Extension.m in Sources */,
 				3027F84F219AA26D008E5A82 /* JSONModel+CoreData.m in Sources */,
 				CB6F9FE8218FEB4700352C60 /* TAAbstractDotView.m in Sources */,
+				CB50EE0E219D1B1400485628 /* FMDatabaseAdditions.m in Sources */,
 				CB6F9FFD2190214F00352C60 /* YCMenuView.m in Sources */,
 				CB50EDDC2199630100485628 /* UIButton+Extension.m in Sources */,
 				3027F865219AA483008E5A82 /* TRCategoryClass.m in Sources */,

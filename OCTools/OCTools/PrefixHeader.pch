@@ -26,6 +26,7 @@
 #import "RequestManager.h"
 #import "Reachability.h"
 #import "AuthorizationManager.h"
+#import "PreferenceManager.h"
 
 #import <MJRefresh.h>
 #import <SDWebImage/UIImageView+WebCache.h>

@@ -28,8 +28,9 @@
     self.tab.delegate = self;
     self.tab.dataSource = self;
     [self.view addSubview:self.tab];
-    
     [self checkNetworkStatus];
+    
+
 }
 #pragma mark - 网络变化通知方法
 - (void)checkNetworkStatus {
