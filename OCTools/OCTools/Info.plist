@@ -2,16 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleDisplayName</key>
-	<string>OCTools</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>如果不同意将无法使用定位</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>如果不同意将无法使用定位</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>如果不同意将无法使用麦克风</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>zh_CN</string>
+	<key>CFBundleDisplayName</key>
+	<string>OCTools</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -35,6 +29,12 @@
 	</dict>
 	<key>NSCameraUsageDescription</key>
 	<string>如果不同意将无法使用拍照功能</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>如果不同意将无法使用定位</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>如果不同意将无法使用定位</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>如果不同意将无法使用麦克风</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>如果不同意讲无发使用相册</string>
 	<key>UILaunchStoryboardName</key>

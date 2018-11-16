@@ -56,6 +56,9 @@
 		CB50EE10219D1B1400485628 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EE0A219D1B1400485628 /* FMDatabaseQueue.m */; };
 		CB50EE11219D1B1400485628 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EE0C219D1B1400485628 /* FMResultSet.m */; };
 		CB50EE14219D1B6500485628 /* PreferenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EE13219D1B6500485628 /* PreferenceManager.m */; };
+		CB50EE1A219D3ACB00485628 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EE19219D3ACB00485628 /* CalendarViewController.m */; };
+		CB50EE20219EA5F400485628 /* GuidePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EE1F219EA5F400485628 /* GuidePageViewController.m */; };
+		CB50EE23219EB1CD00485628 /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EE22219EB1CD00485628 /* AdViewController.m */; };
 		CB6F9F642186A6BC00352C60 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9F632186A6BC00352C60 /* AppDelegate.mm */; };
 		CB6F9F6A2186A6BC00352C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F682186A6BC00352C60 /* Main.storyboard */; };
 		CB6F9F6C2186A6C700352C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F6B2186A6C700352C60 /* Assets.xcassets */; };
@@ -215,6 +218,12 @@
 		CB50EE0C219D1B1400485628 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		CB50EE12219D1B6500485628 /* PreferenceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceManager.h; sourceTree = "<group>"; };
 		CB50EE13219D1B6500485628 /* PreferenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceManager.m; sourceTree = "<group>"; };
+		CB50EE18219D3ACB00485628 /* CalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		CB50EE19219D3ACB00485628 /* CalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		CB50EE1E219EA5F400485628 /* GuidePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuidePageViewController.h; sourceTree = "<group>"; };
+		CB50EE1F219EA5F400485628 /* GuidePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuidePageViewController.m; sourceTree = "<group>"; };
+		CB50EE21219EB1CD00485628 /* AdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdViewController.h; sourceTree = "<group>"; };
+		CB50EE22219EB1CD00485628 /* AdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdViewController.m; sourceTree = "<group>"; };
 		CB6F9F5F2186A6BC00352C60 /* OCTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6F9F622186A6BC00352C60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB6F9F632186A6BC00352C60 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
@@ -598,6 +607,10 @@
 				CB6F9FAF21884D5200352C60 /* BaseViewController.m */,
 				CB50EDD721994A6700485628 /* BaseWebViewController.h */,
 				CB50EDD821994A6700485628 /* BaseWebViewController.m */,
+				CB50EE1E219EA5F400485628 /* GuidePageViewController.h */,
+				CB50EE1F219EA5F400485628 /* GuidePageViewController.m */,
+				CB50EE21219EB1CD00485628 /* AdViewController.h */,
+				CB50EE22219EB1CD00485628 /* AdViewController.m */,
 			);
 			path = "基础控制器";
 			sourceTree = "<group>";
@@ -629,6 +642,8 @@
 				CB50EDEC219BBD0500485628 /* BaiduMapViewController.m */,
 				CB50EDF9219BF16B00485628 /* ChildControlViewController.h */,
 				CB50EDFA219BF16B00485628 /* ChildControlViewController.m */,
+				CB50EE18219D3ACB00485628 /* CalendarViewController.h */,
+				CB50EE19219D3ACB00485628 /* CalendarViewController.m */,
 			);
 			path = "控制器";
 			sourceTree = "<group>";
@@ -911,8 +926,10 @@
 				CB6F9FF1218FEB7F00352C60 /* CycleViewController.m in Sources */,
 				CB50EDD921994A6700485628 /* BaseWebViewController.m in Sources */,
 				CB6F9FC6218AA6EC00352C60 /* UpView.m in Sources */,
+				CB50EE1A219D3ACB00485628 /* CalendarViewController.m in Sources */,
 				CB50EE0F219D1B1400485628 /* FMDatabasePool.m in Sources */,
 				CB50EE14219D1B6500485628 /* PreferenceManager.m in Sources */,
+				CB50EE23219EB1CD00485628 /* AdViewController.m in Sources */,
 				CB6F9F9D2186DAE100352C60 /* BaseTabBarController.m in Sources */,
 				CB6FA01321928D2F00352C60 /* RequestManager.m in Sources */,
 				CB50EDFE219BF46A00485628 /* CustomTextField.m in Sources */,
@@ -933,6 +950,7 @@
 				3027F854219AA26D008E5A82 /* JSONModel+networking.m in Sources */,
 				3027F86D219AA48E008E5A82 /* UIView+TKCategory.m in Sources */,
 				CB6F9FFA21901F9C00352C60 /* PopMenuView.m in Sources */,
+				CB50EE20219EA5F400485628 /* GuidePageViewController.m in Sources */,
 				CB6F9FEB218FEB4700352C60 /* TAPageControl.m in Sources */,
 				CB50EDC12194174300485628 /* MenuAndItemsViewController.m in Sources */,
 				CB6FA0002190263900352C60 /* ScrollMenuView.m in Sources */,
@@ -1122,7 +1140,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EL6YKYR78P;
+				DEVELOPMENT_TEAM = F3YHTYFNE3;
 				GCC_INPUT_FILETYPE = automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/OCTools/PrefixHeader.pch";
@@ -1148,7 +1166,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EL6YKYR78P;
+				DEVELOPMENT_TEAM = F3YHTYFNE3;
 				GCC_INPUT_FILETYPE = automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/OCTools/PrefixHeader.pch";

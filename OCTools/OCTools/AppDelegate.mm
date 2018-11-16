@@ -10,6 +10,8 @@
 #import "BaseNavigationController.h"
 #import "Item1ViewController.h"
 #import "Item2ViewController.h"
+#import "GuidePageViewController.h"
+#import "AdViewController.h"
 @interface AppDelegate ()<BMKGeneralDelegate>
 
 @end
@@ -19,24 +21,60 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    Item1ViewController *v1 = [[Item1ViewController alloc]init];
-    BaseNavigationController *n1 = [[BaseNavigationController alloc]initWithRootViewController:v1];
-    Item2ViewController *v2 = [[Item2ViewController alloc]init];
-    BaseNavigationController *n2 = [[BaseNavigationController alloc]initWithRootViewController:v2];
+    //设置引导页
+    /*
+    GuidePageViewController *vc = [[GuidePageViewController alloc]init];
+    vc.imageArrary = @[@"Intro_Screen_1",@"Intro_Screen_2",@"Intro_Screen_3",@"Intro_Screen_4"];
+    //点击按钮后的方法回调
+    vc.didClickStartBtnBlock = ^{
+//        Item1ViewController *v1 = [[Item1ViewController alloc]init];
+//        BaseNavigationController *n1 = [[BaseNavigationController alloc]initWithRootViewController:v1];
+//        Item2ViewController *v2 = [[Item2ViewController alloc]init];
+//        BaseNavigationController *n2 = [[BaseNavigationController alloc]initWithRootViewController:v2];
+//
+//        self.tabBarController = [[BaseTabBarController alloc]init];
+//        self.tabBarController.viewControllers = @[n1,n2];
+//
+//        UITabBar *tabBar = self.tabBarController.tabBar;
+//
+//        UITabBarItem *item1 = [tabBar.items objectAtIndex:0];
+//        item1.title = @"item1";
+//
+//        UITabBarItem *item2 = [tabBar.items objectAtIndex:1];
+//        item2.title = @"item2";
+//
+//        self.window.rootViewController = self.tabBarController;
+    };
+    self.window.rootViewController = vc;
+   */
+    //设置广告启动图
+    AdViewController *vc = [[AdViewController alloc]init];
+    vc.url = @"http://img.zcool.cn/community/01316b5854df84a8012060c8033d89.gif";
+    vc.skipDidClickBlock = ^{
+        Item1ViewController *v1 = [[Item1ViewController alloc]init];
+        BaseNavigationController *n1 = [[BaseNavigationController alloc]initWithRootViewController:v1];
+        Item2ViewController *v2 = [[Item2ViewController alloc]init];
+        BaseNavigationController *n2 = [[BaseNavigationController alloc]initWithRootViewController:v2];
+        
+        self.tabBarController = [[BaseTabBarController alloc]init];
+        self.tabBarController.viewControllers = @[n1,n2];
+        
+        UITabBar *tabBar = self.tabBarController.tabBar;
+        
+        UITabBarItem *item1 = [tabBar.items objectAtIndex:0];
+        item1.title = @"item1";
+        
+        UITabBarItem *item2 = [tabBar.items objectAtIndex:1];
+        item2.title = @"item2";
+        
+        self.window.rootViewController = self.tabBarController;
+    };
+    vc.adDidClickBlock = ^{
+        NSLog(@"点击了广告页面");
+    };
+    self.window.rootViewController = vc;
     
-    self.tabBarController = [[BaseTabBarController alloc]init];
-    self.tabBarController.viewControllers = @[n1,n2];
-    
-    UITabBar *tabBar = self.tabBarController.tabBar;
-    
-    UITabBarItem *item1 = [tabBar.items objectAtIndex:0];
-    item1.title = @"item1";
-    
-    UITabBarItem *item2 = [tabBar.items objectAtIndex:1];
-    item2.title = @"item2";
-    
-    self.window.rootViewController = self.tabBarController;
-    
+
     //添加网络变化的监听
     self.coon = [Reachability reachabilityForInternetConnection];
     [self.coon startNotifier];
