@@ -61,6 +61,8 @@
 		CB50EE23219EB1CD00485628 /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EE22219EB1CD00485628 /* AdViewController.m */; };
 		CB50EE2621A256C800485628 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EE2521A256C800485628 /* SearchViewController.m */; };
 		CB50EE3521A287E700485628 /* BaseSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EE3421A287E700485628 /* BaseSearchViewController.m */; };
+		CB50EE3B21A3D51E00485628 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EE3A21A3D51E00485628 /* ScanViewController.m */; };
+		CB50EE3E21A3DEF400485628 /* BaseScanCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EE3D21A3DEF400485628 /* BaseScanCodeViewController.m */; };
 		CB6F9F642186A6BC00352C60 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9F632186A6BC00352C60 /* AppDelegate.mm */; };
 		CB6F9F6A2186A6BC00352C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F682186A6BC00352C60 /* Main.storyboard */; };
 		CB6F9F6C2186A6C700352C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F6B2186A6C700352C60 /* Assets.xcassets */; };
@@ -230,6 +232,10 @@
 		CB50EE2521A256C800485628 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		CB50EE3321A287E700485628 /* BaseSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseSearchViewController.h; sourceTree = "<group>"; };
 		CB50EE3421A287E700485628 /* BaseSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseSearchViewController.m; sourceTree = "<group>"; };
+		CB50EE3921A3D51E00485628 /* ScanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		CB50EE3A21A3D51E00485628 /* ScanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		CB50EE3C21A3DEF400485628 /* BaseScanCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseScanCodeViewController.h; sourceTree = "<group>"; };
+		CB50EE3D21A3DEF400485628 /* BaseScanCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseScanCodeViewController.m; sourceTree = "<group>"; };
 		CB6F9F5F2186A6BC00352C60 /* OCTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6F9F622186A6BC00352C60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB6F9F632186A6BC00352C60 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
@@ -619,6 +625,8 @@
 				CB50EE22219EB1CD00485628 /* AdViewController.m */,
 				CB50EE3321A287E700485628 /* BaseSearchViewController.h */,
 				CB50EE3421A287E700485628 /* BaseSearchViewController.m */,
+				CB50EE3C21A3DEF400485628 /* BaseScanCodeViewController.h */,
+				CB50EE3D21A3DEF400485628 /* BaseScanCodeViewController.m */,
 			);
 			path = "基础控制器";
 			sourceTree = "<group>";
@@ -654,6 +662,8 @@
 				CB50EE19219D3ACB00485628 /* CalendarViewController.m */,
 				CB50EE2421A256C800485628 /* SearchViewController.h */,
 				CB50EE2521A256C800485628 /* SearchViewController.m */,
+				CB50EE3921A3D51E00485628 /* ScanViewController.h */,
+				CB50EE3A21A3D51E00485628 /* ScanViewController.m */,
 			);
 			path = "控制器";
 			sourceTree = "<group>";
@@ -898,7 +908,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3027F853219AA26D008E5A82 /* JSONAPI.m in Sources */,
+				CB50EE3B21A3D51E00485628 /* ScanViewController.m in Sources */,
 				CB6F9FC9218ADC8800352C60 /* DatePickerView.m in Sources */,
+				CB50EE3E21A3DEF400485628 /* BaseScanCodeViewController.m in Sources */,
 				CB6FA00F219182D500352C60 /* LoadingView.m in Sources */,
 				3027F862219AA483008E5A82 /* TRColor.m in Sources */,
 				CB6F9FED218FEB4700352C60 /* SDCycleScrollView.m in Sources */,
