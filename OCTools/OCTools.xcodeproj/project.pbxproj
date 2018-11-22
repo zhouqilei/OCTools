@@ -97,6 +97,8 @@
 		CB642BB921A68710003C965D /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BB021A68710003C965D /* YYImage.m */; };
 		CB642BBA21A68710003C965D /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BB221A68710003C965D /* YYImageCoder.m */; };
 		CB642BBB21A68710003C965D /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BB421A68710003C965D /* YYSpriteSheetImage.m */; };
+		CB642BBE21A68DC9003C965D /* StepProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BBD21A68DC9003C965D /* StepProgressView.m */; };
+		CB642BC121A698A6003C965D /* StepProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BC021A698A6003C965D /* StepProgressViewController.m */; };
 		CB6F9F642186A6BC00352C60 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9F632186A6BC00352C60 /* AppDelegate.mm */; };
 		CB6F9F6A2186A6BC00352C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F682186A6BC00352C60 /* Main.storyboard */; };
 		CB6F9F6C2186A6C700352C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F6B2186A6C700352C60 /* Assets.xcassets */; };
@@ -356,6 +358,10 @@
 		CB642BB221A68710003C965D /* YYImageCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageCoder.m; sourceTree = "<group>"; };
 		CB642BB321A68710003C965D /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSpriteSheetImage.h; sourceTree = "<group>"; };
 		CB642BB421A68710003C965D /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSpriteSheetImage.m; sourceTree = "<group>"; };
+		CB642BBC21A68DC9003C965D /* StepProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StepProgressView.h; sourceTree = "<group>"; };
+		CB642BBD21A68DC9003C965D /* StepProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepProgressView.m; sourceTree = "<group>"; };
+		CB642BBF21A698A6003C965D /* StepProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StepProgressViewController.h; sourceTree = "<group>"; };
+		CB642BC021A698A6003C965D /* StepProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepProgressViewController.m; sourceTree = "<group>"; };
 		CB6F9F5F2186A6BC00352C60 /* OCTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6F9F622186A6BC00352C60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB6F9F632186A6BC00352C60 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
@@ -871,6 +877,8 @@
 				CB50EDC3219523D000485628 /* ImagesPickView.m */,
 				CB50EDCE2199181800485628 /* AlertView.h */,
 				CB50EDCF2199181800485628 /* AlertView.m */,
+				CB642BBC21A68DC9003C965D /* StepProgressView.h */,
+				CB642BBD21A68DC9003C965D /* StepProgressView.m */,
 			);
 			path = "基础视图";
 			sourceTree = "<group>";
@@ -958,6 +966,8 @@
 				CB50EE4621A53AD900485628 /* FoldViewController.m */,
 				CB642B4221A6724C003C965D /* PhotoBrowserViewController.h */,
 				CB642B4321A6724C003C965D /* PhotoBrowserViewController.m */,
+				CB642BBF21A698A6003C965D /* StepProgressViewController.h */,
+				CB642BC021A698A6003C965D /* StepProgressViewController.m */,
 			);
 			path = "控制器";
 			sourceTree = "<group>";
@@ -1254,6 +1264,7 @@
 				CB50EE4121A506B500485628 /* NSObject+Extension.m in Sources */,
 				CB6F9FF4218FF28200352C60 /* StarRateView.m in Sources */,
 				3027F84D219AA26D008E5A82 /* JSONModel.m in Sources */,
+				CB642BC121A698A6003C965D /* StepProgressViewController.m in Sources */,
 				CB50EDBE21940EAA00485628 /* MenuAndItemsView.m in Sources */,
 				CB6F9FF1218FEB7F00352C60 /* CycleViewController.m in Sources */,
 				CB50EDD921994A6700485628 /* BaseWebViewController.m in Sources */,
@@ -1313,6 +1324,7 @@
 				CB6F9FBA218958CD00352C60 /* Item1ViewController.m in Sources */,
 				CB6F9F642186A6BC00352C60 /* AppDelegate.mm in Sources */,
 				3027F84C219AA26D008E5A82 /* JSONKeyMapper.m in Sources */,
+				CB642BBE21A68DC9003C965D /* StepProgressView.m in Sources */,
 				CB642B4421A6724C003C965D /* PhotoBrowserViewController.m in Sources */,
 				CB642B9021A68663003C965D /* YBImage.m in Sources */,
 				CB642B9121A68663003C965D /* YBImageBrowseCell.m in Sources */,
