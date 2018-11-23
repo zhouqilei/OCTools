@@ -99,6 +99,8 @@
 		CB642BBB21A68710003C965D /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BB421A68710003C965D /* YYSpriteSheetImage.m */; };
 		CB642BBE21A68DC9003C965D /* StepProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BBD21A68DC9003C965D /* StepProgressView.m */; };
 		CB642BC121A698A6003C965D /* StepProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BC021A698A6003C965D /* StepProgressViewController.m */; };
+		CB642BC721A791A5003C965D /* WuLiuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BC621A791A5003C965D /* WuLiuViewController.m */; };
+		CB642BCA21A7D52C003C965D /* SuspensionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BC921A7D52C003C965D /* SuspensionView.m */; };
 		CB6F9F642186A6BC00352C60 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9F632186A6BC00352C60 /* AppDelegate.mm */; };
 		CB6F9F6A2186A6BC00352C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F682186A6BC00352C60 /* Main.storyboard */; };
 		CB6F9F6C2186A6C700352C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F6B2186A6C700352C60 /* Assets.xcassets */; };
@@ -362,6 +364,10 @@
 		CB642BBD21A68DC9003C965D /* StepProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepProgressView.m; sourceTree = "<group>"; };
 		CB642BBF21A698A6003C965D /* StepProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StepProgressViewController.h; sourceTree = "<group>"; };
 		CB642BC021A698A6003C965D /* StepProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StepProgressViewController.m; sourceTree = "<group>"; };
+		CB642BC521A791A5003C965D /* WuLiuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WuLiuViewController.h; sourceTree = "<group>"; };
+		CB642BC621A791A5003C965D /* WuLiuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WuLiuViewController.m; sourceTree = "<group>"; };
+		CB642BC821A7D52C003C965D /* SuspensionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuspensionView.h; sourceTree = "<group>"; };
+		CB642BC921A7D52C003C965D /* SuspensionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuspensionView.m; sourceTree = "<group>"; };
 		CB6F9F5F2186A6BC00352C60 /* OCTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6F9F622186A6BC00352C60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB6F9F632186A6BC00352C60 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
@@ -879,6 +885,8 @@
 				CB50EDCF2199181800485628 /* AlertView.m */,
 				CB642BBC21A68DC9003C965D /* StepProgressView.h */,
 				CB642BBD21A68DC9003C965D /* StepProgressView.m */,
+				CB642BC821A7D52C003C965D /* SuspensionView.h */,
+				CB642BC921A7D52C003C965D /* SuspensionView.m */,
 			);
 			path = "基础视图";
 			sourceTree = "<group>";
@@ -932,6 +940,8 @@
 		CB6F9FB7218958AD00352C60 /* 控制器 */ = {
 			isa = PBXGroup;
 			children = (
+				CB642BC521A791A5003C965D /* WuLiuViewController.h */,
+				CB642BC621A791A5003C965D /* WuLiuViewController.m */,
 				CB50EDE6219ABE3200485628 /* AMapViewController.h */,
 				CB50EDE5219ABE3200485628 /* AMapViewController.m */,
 				CB6F9FB8218958CD00352C60 /* Item1ViewController.h */,
@@ -1237,6 +1247,7 @@
 				CB6F9FEC218FEB4700352C60 /* SDCollectionViewCell.m in Sources */,
 				3027F84E219AA26D008E5A82 /* JSONModelError.m in Sources */,
 				CB642B8A21A68663003C965D /* YBIBGestureInteractionProfile.m in Sources */,
+				CB642BC721A791A5003C965D /* WuLiuViewController.m in Sources */,
 				CB6F9FC0218A83B800352C60 /* BaseTableView.m in Sources */,
 				CB642B8421A68663003C965D /* YBImageBrowserTipView.m in Sources */,
 				3027F872219AA4CE008E5A82 /* UserInfo.m in Sources */,
@@ -1251,6 +1262,7 @@
 				CB50EDC4219523D000485628 /* ImagesPickView.m in Sources */,
 				3027F863219AA483008E5A82 /* TRMacro.m in Sources */,
 				3027F850219AA26D008E5A82 /* JSONModelArray.m in Sources */,
+				CB642BCA21A7D52C003C965D /* SuspensionView.m in Sources */,
 				CB50EDF8219BF01700485628 /* CustomLabel.m in Sources */,
 				CB50EDDF2199650400485628 /* NSString+Extension.m in Sources */,
 				3027F86C219AA48E008E5A82 /* TKAlertCenter.m in Sources */,
