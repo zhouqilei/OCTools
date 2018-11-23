@@ -21,6 +21,22 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL)isValid;
 /**h5字符串中获取img标签*/
 + (NSArray *)getImagesFromHtml:(NSString *)html;
+/**判断是否是电话号码*/
+- (BOOL)isPhoneNumber;
+/**判断是否是手机号码*/
+- (BOOL)isMobileNumber;
+/**获取字符串中的所有电话号码*/
+- (NSArray *)getPhoneNumbers;
+/**获取字符串中的所有手机号码*/
+- (NSArray *)getMobileNumbers;
+/**身份证是否合法*/
+- (BOOL)isValidID;
+/**车牌号是否合法*/
+- (BOOL)isValidCarID;
+/**银行卡号是否合法*/
+- (BOOL)isValidBankID;
+/**邮箱是否合法*/
+- (BOOL)isValidEmail;
 @end
 
 NS_ASSUME_NONNULL_END
