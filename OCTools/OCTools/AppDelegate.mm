@@ -75,6 +75,8 @@
 //    };
 //    self.window.rootViewController = vc;
     
+    //设置3DTouch
+    [self set3DTouch];
     
     Item1ViewController *v1 = [[Item1ViewController alloc]init];
     BaseNavigationController *n1 = [[BaseNavigationController alloc]initWithRootViewController:v1];
@@ -111,7 +113,20 @@
     return YES;
 }
 
+- (void)set3DTouch{
+    UIApplicationShortcutIcon *scan = [UIApplicationShortcutIcon iconWithTemplateImageName:@"icon-tj"];
+    
+    UIApplicationShortcutItem *item1 = [[UIApplicationShortcutItem alloc]initWithType:@"1" localizedTitle:@"扫一扫" localizedSubtitle:@"" icon:scan userInfo:nil];
+    //设置APP快捷菜单
+    [[UIApplication sharedApplication] setShortcutItems:@[item1]];
 
+}
+#pragma mark - 点击快捷菜单实现方法
+- (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL))completionHandler {
+    if ([shortcutItem.localizedTitle isEqualToString:@"扫一扫"]) {
+        NSLog(@"点击了扫一扫");
+    }
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
