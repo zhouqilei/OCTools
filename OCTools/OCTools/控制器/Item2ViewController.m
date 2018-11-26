@@ -19,6 +19,7 @@
 #import "StepProgressViewController.h"
 #import "WuLiuViewController.h"
 #import "SuspensionView.h"
+#import "TagsViewController.h"
 @interface Item2ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong)BaseTableView *tab;
 @property (nonatomic, strong)NSMutableArray *data;
@@ -33,7 +34,7 @@
     //接收网络变化的通知
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(checkNetworkStatus) name:kReachabilityChangedNotification object:nil];
     
-    self.data = [NSMutableArray arrayWithArray:@[@"网络请求",@"网络状态",@"权限管理",@"继承系统控件的子类控件",@"日历",@"搜索",@"扫一扫",@"折叠cell",@"图片浏览器",@"步骤进度条",@"类似淘宝带有进度线的物流流程",@"简单的悬浮按钮实现"]];
+    self.data = [NSMutableArray arrayWithArray:@[@"网络请求",@"网络状态",@"权限管理",@"继承系统控件的子类控件",@"日历",@"搜索",@"扫一扫",@"折叠cell",@"图片浏览器",@"步骤进度条",@"类似淘宝带有进度线的物流流程",@"简单的悬浮按钮实现",@"标签选择"]];
     self.tab = [[BaseTableView alloc]initWithFrame:CGRectMake(0, 0, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT - HeightForNagivationBarAndStatusBar - HOME_INDICATOR_HEIGHT) style:UITableViewStylePlain];
     self.tab.delegate = self;
     self.tab.dataSource = self;
@@ -162,6 +163,13 @@
             [view.suspensionBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
             [view show];
         }
+            break;
+        case 12:
+        {
+            TagsViewController *vc = [[TagsViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
         default:
             break;
     }

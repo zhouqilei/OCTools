@@ -101,6 +101,8 @@
 		CB642BC121A698A6003C965D /* StepProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BC021A698A6003C965D /* StepProgressViewController.m */; };
 		CB642BC721A791A5003C965D /* WuLiuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BC621A791A5003C965D /* WuLiuViewController.m */; };
 		CB642BCA21A7D52C003C965D /* SuspensionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BC921A7D52C003C965D /* SuspensionView.m */; };
+		CB642BCD21ABC40E003C965D /* TagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BCC21ABC40E003C965D /* TagsView.m */; };
+		CB642BD021ABCE39003C965D /* TagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BCF21ABCE39003C965D /* TagsViewController.m */; };
 		CB6F9F642186A6BC00352C60 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9F632186A6BC00352C60 /* AppDelegate.mm */; };
 		CB6F9F6A2186A6BC00352C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F682186A6BC00352C60 /* Main.storyboard */; };
 		CB6F9F6C2186A6C700352C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F6B2186A6C700352C60 /* Assets.xcassets */; };
@@ -368,6 +370,10 @@
 		CB642BC621A791A5003C965D /* WuLiuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WuLiuViewController.m; sourceTree = "<group>"; };
 		CB642BC821A7D52C003C965D /* SuspensionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuspensionView.h; sourceTree = "<group>"; };
 		CB642BC921A7D52C003C965D /* SuspensionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuspensionView.m; sourceTree = "<group>"; };
+		CB642BCB21ABC40E003C965D /* TagsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagsView.h; sourceTree = "<group>"; };
+		CB642BCC21ABC40E003C965D /* TagsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagsView.m; sourceTree = "<group>"; };
+		CB642BCE21ABCE39003C965D /* TagsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagsViewController.h; sourceTree = "<group>"; };
+		CB642BCF21ABCE39003C965D /* TagsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagsViewController.m; sourceTree = "<group>"; };
 		CB6F9F5F2186A6BC00352C60 /* OCTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6F9F622186A6BC00352C60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB6F9F632186A6BC00352C60 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
@@ -887,6 +893,8 @@
 				CB642BBD21A68DC9003C965D /* StepProgressView.m */,
 				CB642BC821A7D52C003C965D /* SuspensionView.h */,
 				CB642BC921A7D52C003C965D /* SuspensionView.m */,
+				CB642BCB21ABC40E003C965D /* TagsView.h */,
+				CB642BCC21ABC40E003C965D /* TagsView.m */,
 			);
 			path = "基础视图";
 			sourceTree = "<group>";
@@ -978,6 +986,8 @@
 				CB642B4321A6724C003C965D /* PhotoBrowserViewController.m */,
 				CB642BBF21A698A6003C965D /* StepProgressViewController.h */,
 				CB642BC021A698A6003C965D /* StepProgressViewController.m */,
+				CB642BCE21ABCE39003C965D /* TagsViewController.h */,
+				CB642BCF21ABCE39003C965D /* TagsViewController.m */,
 			);
 			path = "控制器";
 			sourceTree = "<group>";
@@ -1226,6 +1236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3027F853219AA26D008E5A82 /* JSONAPI.m in Sources */,
+				CB642BD021ABCE39003C965D /* TagsViewController.m in Sources */,
 				CB50EE3B21A3D51E00485628 /* ScanViewController.m in Sources */,
 				CB6F9FC9218ADC8800352C60 /* DatePickerView.m in Sources */,
 				CB50EE3E21A3DEF400485628 /* BaseScanCodeViewController.m in Sources */,
@@ -1305,6 +1316,7 @@
 				CB50EDD321991C8A00485628 /* UIView+Extension.m in Sources */,
 				3027F864219AA483008E5A82 /* TRExtendsClass.m in Sources */,
 				CB642B8921A68663003C965D /* YBIBFileManager.m in Sources */,
+				CB642BCD21ABC40E003C965D /* TagsView.m in Sources */,
 				CB642B8D21A68663003C965D /* YBIBTransitionManager.m in Sources */,
 				CB50EDCD219573F200485628 /* AuthorizationViewController.m in Sources */,
 				CB6F9F992186AB2D00352C60 /* UIView+Specification.m in Sources */,
