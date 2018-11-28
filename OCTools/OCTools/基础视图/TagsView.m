@@ -38,9 +38,9 @@
     return _selectedTags;
 }
 - (void)setupView {
-    //布局过程中当前按钮X
+    //布局过程中当前按钮最大X
     CGFloat lastMaxX = KBtn_Space_H;
-    //布局过程中当前按钮Y
+    //布局过程中当前按钮最大Y
     CGFloat lastMaxY = KBtn_Space_V;
     for (int i = 0; i < self.tags.count; i++) {
         TagBtn *btn = [TagBtn tagBtnWithTagTitle:self.tags[i]];

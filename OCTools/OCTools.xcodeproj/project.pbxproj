@@ -103,6 +103,7 @@
 		CB642BCA21A7D52C003C965D /* SuspensionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BC921A7D52C003C965D /* SuspensionView.m */; };
 		CB642BCD21ABC40E003C965D /* TagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BCC21ABC40E003C965D /* TagsView.m */; };
 		CB642BD021ABCE39003C965D /* TagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BCF21ABCE39003C965D /* TagsViewController.m */; };
+		CB642BD321AD0AE5003C965D /* ProAttrSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BD221AD0AE5003C965D /* ProAttrSelectView.m */; };
 		CB6F9F642186A6BC00352C60 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9F632186A6BC00352C60 /* AppDelegate.mm */; };
 		CB6F9F6A2186A6BC00352C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F682186A6BC00352C60 /* Main.storyboard */; };
 		CB6F9F6C2186A6C700352C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F6B2186A6C700352C60 /* Assets.xcassets */; };
@@ -374,6 +375,8 @@
 		CB642BCC21ABC40E003C965D /* TagsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagsView.m; sourceTree = "<group>"; };
 		CB642BCE21ABCE39003C965D /* TagsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagsViewController.h; sourceTree = "<group>"; };
 		CB642BCF21ABCE39003C965D /* TagsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagsViewController.m; sourceTree = "<group>"; };
+		CB642BD121AD0AE5003C965D /* ProAttrSelectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProAttrSelectView.h; sourceTree = "<group>"; };
+		CB642BD221AD0AE5003C965D /* ProAttrSelectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProAttrSelectView.m; sourceTree = "<group>"; };
 		CB6F9F5F2186A6BC00352C60 /* OCTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6F9F622186A6BC00352C60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB6F9F632186A6BC00352C60 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
@@ -895,6 +898,8 @@
 				CB642BC921A7D52C003C965D /* SuspensionView.m */,
 				CB642BCB21ABC40E003C965D /* TagsView.h */,
 				CB642BCC21ABC40E003C965D /* TagsView.m */,
+				CB642BD121AD0AE5003C965D /* ProAttrSelectView.h */,
+				CB642BD221AD0AE5003C965D /* ProAttrSelectView.m */,
 			);
 			path = "基础视图";
 			sourceTree = "<group>";
@@ -1326,6 +1331,7 @@
 				CB6F9FEE218FEB4700352C60 /* UIView+SDExtension.m in Sources */,
 				CB642BBB21A68710003C965D /* YYSpriteSheetImage.m in Sources */,
 				CB642B9421A68663003C965D /* YBVideoBrowseCell.m in Sources */,
+				CB642BD321AD0AE5003C965D /* ProAttrSelectView.m in Sources */,
 				3027F854219AA26D008E5A82 /* JSONModel+networking.m in Sources */,
 				3027F86D219AA48E008E5A82 /* UIView+TKCategory.m in Sources */,
 				CB642B9621A68663003C965D /* YBVideoBrowseTopBar.m in Sources */,
