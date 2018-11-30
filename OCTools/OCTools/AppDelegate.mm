@@ -74,7 +74,9 @@
 //        NSLog(@"点击了广告页面");
 //    };
 //    self.window.rootViewController = vc;
-    
+    if (IS_IPHONE_Xr) {
+        NSLog(@"hahah");
+    }
     //设置3DTouch
     [self set3DTouch];
     

@@ -104,6 +104,8 @@
 		CB642BCD21ABC40E003C965D /* TagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BCC21ABC40E003C965D /* TagsView.m */; };
 		CB642BD021ABCE39003C965D /* TagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BCF21ABCE39003C965D /* TagsViewController.m */; };
 		CB642BD321AD0AE5003C965D /* ProAttrSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BD221AD0AE5003C965D /* ProAttrSelectView.m */; };
+		CB642BD921AF8FF4003C965D /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BD821AF8FF4003C965D /* PlayView.m */; };
+		CB642BDC21AFB708003C965D /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BDB21AFB708003C965D /* PlayViewController.m */; };
 		CB6F9F642186A6BC00352C60 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9F632186A6BC00352C60 /* AppDelegate.mm */; };
 		CB6F9F6A2186A6BC00352C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F682186A6BC00352C60 /* Main.storyboard */; };
 		CB6F9F6C2186A6C700352C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F6B2186A6C700352C60 /* Assets.xcassets */; };
@@ -377,6 +379,10 @@
 		CB642BCF21ABCE39003C965D /* TagsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagsViewController.m; sourceTree = "<group>"; };
 		CB642BD121AD0AE5003C965D /* ProAttrSelectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProAttrSelectView.h; sourceTree = "<group>"; };
 		CB642BD221AD0AE5003C965D /* ProAttrSelectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProAttrSelectView.m; sourceTree = "<group>"; };
+		CB642BD721AF8FF4003C965D /* PlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayView.h; sourceTree = "<group>"; };
+		CB642BD821AF8FF4003C965D /* PlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
+		CB642BDA21AFB708003C965D /* PlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		CB642BDB21AFB708003C965D /* PlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
 		CB6F9F5F2186A6BC00352C60 /* OCTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6F9F622186A6BC00352C60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB6F9F632186A6BC00352C60 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
@@ -900,6 +906,8 @@
 				CB642BCC21ABC40E003C965D /* TagsView.m */,
 				CB642BD121AD0AE5003C965D /* ProAttrSelectView.h */,
 				CB642BD221AD0AE5003C965D /* ProAttrSelectView.m */,
+				CB642BD721AF8FF4003C965D /* PlayView.h */,
+				CB642BD821AF8FF4003C965D /* PlayView.m */,
 			);
 			path = "基础视图";
 			sourceTree = "<group>";
@@ -993,6 +1001,8 @@
 				CB642BC021A698A6003C965D /* StepProgressViewController.m */,
 				CB642BCE21ABCE39003C965D /* TagsViewController.h */,
 				CB642BCF21ABCE39003C965D /* TagsViewController.m */,
+				CB642BDA21AFB708003C965D /* PlayViewController.h */,
+				CB642BDB21AFB708003C965D /* PlayViewController.m */,
 			);
 			path = "控制器";
 			sourceTree = "<group>";
@@ -1273,6 +1283,7 @@
 				CB50EDFB219BF16B00485628 /* ChildControlViewController.m in Sources */,
 				CB50EE0D219D1B1400485628 /* FMDatabase.m in Sources */,
 				CB50EDED219BBD0500485628 /* BaiduMapViewController.m in Sources */,
+				CB642BDC21AFB708003C965D /* PlayViewController.m in Sources */,
 				CB6FA0092191366F00352C60 /* RemindView.m in Sources */,
 				CB6F9FAC218838FE00352C60 /* BaseNavigationController.m in Sources */,
 				CB50EDC4219523D000485628 /* ImagesPickView.m in Sources */,
@@ -1318,6 +1329,7 @@
 				CB50EDDC2199630100485628 /* UIButton+Extension.m in Sources */,
 				CB50EE2621A256C800485628 /* SearchViewController.m in Sources */,
 				3027F865219AA483008E5A82 /* TRCategoryClass.m in Sources */,
+				CB642BD921AF8FF4003C965D /* PlayView.m in Sources */,
 				CB50EDD321991C8A00485628 /* UIView+Extension.m in Sources */,
 				3027F864219AA483008E5A82 /* TRExtendsClass.m in Sources */,
 				CB642B8921A68663003C965D /* YBIBFileManager.m in Sources */,
