@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.scrollV = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT - HeightForNagivationBarAndStatusBar - HOME_INDICATOR_HEIGHT)];
+    self.scrollV = [[UIScrollView alloc]initWithFrame:CGRectMake(0, HeightForNagivationBarAndStatusBar, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT - HeightForNagivationBarAndStatusBar - HOME_INDICATOR_HEIGHT)];
     self.scrollV.backgroundColor = [UIColor groupTableViewBackgroundColor];
     self.scrollV.contentSize = CGSizeMake(UI_SCREEN_WIDTH, 1000.0f);
     [self.view addSubview:self.scrollV];

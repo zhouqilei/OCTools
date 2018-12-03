@@ -35,7 +35,7 @@
     [self.view addSubview:self.webView];
     
     self.progresslayer = [[CALayer alloc]init];
-    self.progresslayer.frame = CGRectMake(0, 0, 20, 2);
+    self.progresslayer.frame = CGRectMake(0, HeightForNagivationBarAndStatusBar, 20, 2);
     self.progresslayer.backgroundColor = [UIColor redColor].CGColor;
     [self.view.layer addSublayer:self.progresslayer];
     
@@ -75,13 +75,13 @@
     if ([keyPath isEqualToString:@"estimatedProgress"]) {
         self.progresslayer.opacity = 1;
         float newValue = [[change objectForKey:@"new"] floatValue];
-        self.progresslayer.frame = CGRectMake(0, 0, UI_SCREEN_WIDTH * newValue, 2);
+        self.progresslayer.frame = CGRectMake(0, HeightForNagivationBarAndStatusBar, UI_SCREEN_WIDTH * newValue, 2);
         if (newValue == 1) {
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                 self.progresslayer.opacity = 0;
             });
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.8 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-                self.progresslayer.frame = CGRectMake(0, 0, 0, 2);
+                self.progresslayer.frame = CGRectMake(0, HeightForNagivationBarAndStatusBar, 0, 2);
             });
         }
     }

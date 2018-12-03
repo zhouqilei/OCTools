@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    StarRateView *view = [[StarRateView alloc]initWithFrame:CGRectMake(0, 0, UI_SCREEN_WIDTH, 60) AndStarCount:5];
+    StarRateView *view = [[StarRateView alloc]initWithFrame:CGRectMake(0, HeightForNagivationBarAndStatusBar, UI_SCREEN_WIDTH, 60) AndStarCount:5];
     view.rateStyle = IncompleteStar;
     view.delegate = self;
     view.currentRate = 2.1;

@@ -23,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.mapView = [[MAMapView alloc]initWithFrame:CGRectMake(0, 0, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT / 2)];
+    self.mapView = [[MAMapView alloc]initWithFrame:CGRectMake(0, HeightForNagivationBarAndStatusBar, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT / 2)];
     self.mapView.mapType = MAMapTypeStandard;
     [self.view addSubview:self.mapView];
     //比例尺不显示
@@ -39,13 +39,13 @@
     self.search = [[AMapSearchAPI alloc]init];
     self.search.delegate = self;
     //设置搜索
-    self.searchT = [[UITextField alloc]initWithFrame:CGRectMake(0, self.mapView.maxY - HeightForNagivationBarAndStatusBar, UI_SCREEN_WIDTH, 40)];
+    self.searchT = [[UITextField alloc]initWithFrame:CGRectMake(0, self.mapView.maxY, UI_SCREEN_WIDTH, 40)];
     self.searchT.backgroundColor = [UIColor whiteColor];
     self.searchT.placeholder = @"请输入搜索内容";
     self.searchT.delegate = self;
     [self.view addSubview:self.searchT];
     //搜索结果列表
-    self.tab = [[UITableView alloc]initWithFrame:CGRectMake(0, self.searchT.maxY, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT - HeightForNagivationBarAndStatusBar - HOME_INDICATOR_HEIGHT - self.searchT.maxY)];
+    self.tab = [[UITableView alloc]initWithFrame:CGRectMake(0, self.searchT.maxY, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT  - HOME_INDICATOR_HEIGHT - self.searchT.maxY)];
     self.tab.delegate = self;
     self.tab.dataSource = self;
     [self.view addSubview:self.tab];

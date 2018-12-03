@@ -19,6 +19,8 @@
 - (void)viewWillAppear:(BOOL)animated {
     //界面出现时弹出键盘
     [self.searchBar becomeFirstResponder];
+    
+     [self.navigationController.navigationBar setBackgroundImage:[UIImage imageWithColor:App_Main_Color rect:CGRectMake(0, 0, UI_SCREEN_WIDTH, HeightForNagivationBarAndStatusBar)] forBarMetrics:UIBarMetricsDefault];
 }
 - (void)viewWillDisappear:(BOOL)animated {
     //界面消失时隐藏键盘
@@ -29,7 +31,7 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
     
-    self.searchBar = [[UISearchBar alloc]initWithFrame:CGRectMake(0, STATUS_BAR_HEIGHT, UI_SCREEN_WIDTH, HeightForNagivationBarAndStatusBar - STATUS_BAR_HEIGHT)];
+    self.searchBar = [[UISearchBar alloc]init];
     self.searchBar.delegate = self;
     //设置searchBar背景颜色
     self.searchBar.barTintColor = App_Main_Color;
@@ -47,6 +49,9 @@
     [cancelButton setTitle:@"取消" forState:UIControlStateNormal];
     //将searchBar放到导航栏上
     self.navigationItem.titleView = self.searchBar;
+    if (@available(iOS 11.0, *)) {
+        [[self.searchBar.heightAnchor constraintEqualToConstant:44.0] setActive:YES];
+    }
     //将列表放到界面上
     [self.view addSubview:self.resultTableView];
 }

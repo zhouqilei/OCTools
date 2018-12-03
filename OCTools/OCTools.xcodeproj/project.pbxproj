@@ -106,6 +106,7 @@
 		CB642BD321AD0AE5003C965D /* ProAttrSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BD221AD0AE5003C965D /* ProAttrSelectView.m */; };
 		CB642BD921AF8FF4003C965D /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BD821AF8FF4003C965D /* PlayView.m */; };
 		CB642BDC21AFB708003C965D /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BDB21AFB708003C965D /* PlayViewController.m */; };
+		CB642BDF21B4C97C003C965D /* FlexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB642BDE21B4C97C003C965D /* FlexViewController.m */; };
 		CB6F9F642186A6BC00352C60 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB6F9F632186A6BC00352C60 /* AppDelegate.mm */; };
 		CB6F9F6A2186A6BC00352C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F682186A6BC00352C60 /* Main.storyboard */; };
 		CB6F9F6C2186A6C700352C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6F9F6B2186A6C700352C60 /* Assets.xcassets */; };
@@ -145,6 +146,8 @@
 		CB6FA00C2191738A00352C60 /* PromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FA00B2191738A00352C60 /* PromptView.m */; };
 		CB6FA00F219182D500352C60 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FA00E219182D500352C60 /* LoadingView.m */; };
 		CB6FA01321928D2F00352C60 /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FA01221928D2F00352C60 /* RequestManager.m */; };
+		CB96E40521B52128000CB400 /* WRCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CB96E40221B52128000CB400 /* WRCustomNavigationBar.m */; };
+		CB96E40621B52128000CB400 /* WRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CB96E40421B52128000CB400 /* WRNavigationBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -383,6 +386,8 @@
 		CB642BD821AF8FF4003C965D /* PlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
 		CB642BDA21AFB708003C965D /* PlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
 		CB642BDB21AFB708003C965D /* PlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		CB642BDD21B4C97C003C965D /* FlexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlexViewController.h; sourceTree = "<group>"; };
+		CB642BDE21B4C97C003C965D /* FlexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlexViewController.m; sourceTree = "<group>"; };
 		CB6F9F5F2186A6BC00352C60 /* OCTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6F9F622186A6BC00352C60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB6F9F632186A6BC00352C60 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
@@ -461,6 +466,10 @@
 		CB6FA00E219182D500352C60 /* LoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
 		CB6FA01121928D2F00352C60 /* RequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
 		CB6FA01221928D2F00352C60 /* RequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
+		CB96E40121B52128000CB400 /* WRCustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRCustomNavigationBar.h; sourceTree = "<group>"; };
+		CB96E40221B52128000CB400 /* WRCustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRCustomNavigationBar.m; sourceTree = "<group>"; };
+		CB96E40321B52128000CB400 /* WRNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRNavigationBar.h; sourceTree = "<group>"; };
+		CB96E40421B52128000CB400 /* WRNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRNavigationBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1003,6 +1012,8 @@
 				CB642BCF21ABCE39003C965D /* TagsViewController.m */,
 				CB642BDA21AFB708003C965D /* PlayViewController.h */,
 				CB642BDB21AFB708003C965D /* PlayViewController.m */,
+				CB642BDD21B4C97C003C965D /* FlexViewController.h */,
+				CB642BDE21B4C97C003C965D /* FlexViewController.m */,
 			);
 			path = "控制器";
 			sourceTree = "<group>";
@@ -1010,6 +1021,7 @@
 		CB6F9FD7218FEAC300352C60 /* 第三方 */ = {
 			isa = PBXGroup;
 			children = (
+				CB96E40021B52128000CB400 /* WRNavigationBar */,
 				CB642B4521A68663003C965D /* YBImageBrowser */,
 				CB50EE02219D1B1400485628 /* fmdb */,
 				3027F867219AA48E008E5A82 /* TKAlert */,
@@ -1065,6 +1077,17 @@
 				CB50EDC921956B6900485628 /* AuthorizationManager.m */,
 			);
 			path = "管理类";
+			sourceTree = "<group>";
+		};
+		CB96E40021B52128000CB400 /* WRNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				CB96E40121B52128000CB400 /* WRCustomNavigationBar.h */,
+				CB96E40221B52128000CB400 /* WRCustomNavigationBar.m */,
+				CB96E40321B52128000CB400 /* WRNavigationBar.h */,
+				CB96E40421B52128000CB400 /* WRNavigationBar.m */,
+			);
+			path = WRNavigationBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1269,6 +1292,7 @@
 				CB642B9321A68663003C965D /* YBVideoBrowseActionBar.m in Sources */,
 				CB642B8B21A68663003C965D /* YBIBLayoutDirectionManager.m in Sources */,
 				CB50EE10219D1B1400485628 /* FMDatabaseQueue.m in Sources */,
+				CB642BDF21B4C97C003C965D /* FlexViewController.m in Sources */,
 				CB6FA003219034AF00352C60 /* ScrollMenuViewController.m in Sources */,
 				CB6F9FEC218FEB4700352C60 /* SDCollectionViewCell.m in Sources */,
 				3027F84E219AA26D008E5A82 /* JSONModelError.m in Sources */,
@@ -1344,6 +1368,7 @@
 				CB642BBB21A68710003C965D /* YYSpriteSheetImage.m in Sources */,
 				CB642B9421A68663003C965D /* YBVideoBrowseCell.m in Sources */,
 				CB642BD321AD0AE5003C965D /* ProAttrSelectView.m in Sources */,
+				CB96E40621B52128000CB400 /* WRNavigationBar.m in Sources */,
 				3027F854219AA26D008E5A82 /* JSONModel+networking.m in Sources */,
 				3027F86D219AA48E008E5A82 /* UIView+TKCategory.m in Sources */,
 				CB642B9621A68663003C965D /* YBVideoBrowseTopBar.m in Sources */,
@@ -1354,6 +1379,7 @@
 				CB50EDC12194174300485628 /* MenuAndItemsViewController.m in Sources */,
 				CB6FA0002190263900352C60 /* ScrollMenuView.m in Sources */,
 				CB50EDCA21956B6900485628 /* AuthorizationManager.m in Sources */,
+				CB96E40521B52128000CB400 /* WRCustomNavigationBar.m in Sources */,
 				CB6FA00C2191738A00352C60 /* PromptView.m in Sources */,
 				CB6F9FB021884D5200352C60 /* BaseViewController.m in Sources */,
 				CB50EE4721A53AD900485628 /* FoldViewController.m in Sources */,

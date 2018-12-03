@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    ScrollMenuView *menu = [[ScrollMenuView alloc]initWithFrame:CGRectMake(0, 0, UI_SCREEN_WIDTH, 44) andStyle:ScrollMenuViewStyleValue2];
+    ScrollMenuView *menu = [[ScrollMenuView alloc]initWithFrame:CGRectMake(0, HeightForNagivationBarAndStatusBar, UI_SCREEN_WIDTH, 44) andStyle:ScrollMenuViewStyleValue2];
     menu.items = @[@"热门",@"视频",@"财经频道"];
     menu.delegate = self;
     [self.view addSubview:menu];

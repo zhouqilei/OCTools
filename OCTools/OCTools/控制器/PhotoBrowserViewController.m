@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.imageV = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
+    self.imageV = [[UIImageView alloc]initWithFrame:CGRectMake(0, HeightForNagivationBarAndStatusBar, 100, 100)];
     self.imageV.contentMode = UIViewContentModeScaleAspectFill;
     self.imageV.image = [UIImage imageNamed:@"Intro_Screen_1"];
     [self.imageV addTarget:self action:@selector(clickImage) forControlEvents:UIControlEventTouchUpInside];

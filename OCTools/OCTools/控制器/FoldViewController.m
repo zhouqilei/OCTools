@@ -21,7 +21,7 @@
 }
 - (UITableView *)tableV {
     if (!_tableV) {
-        _tableV = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT - HeightForNagivationBarAndStatusBar - HOME_INDICATOR_HEIGHT) style:UITableViewStylePlain];
+        _tableV = [[UITableView alloc]initWithFrame:CGRectMake(0, HeightForNagivationBarAndStatusBar, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT - HeightForNagivationBarAndStatusBar - HOME_INDICATOR_HEIGHT) style:UITableViewStylePlain];
         _tableV.delegate = self;
         _tableV.dataSource = self;
         _tableV.backgroundColor = [UIColor whiteColor];

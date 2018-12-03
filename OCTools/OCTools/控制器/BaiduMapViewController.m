@@ -40,7 +40,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.mapView = [[BMKMapView alloc]initWithFrame:CGRectMake(0, 0, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT / 2)];
+    self.mapView = [[BMKMapView alloc]initWithFrame:CGRectMake(0, HeightForNagivationBarAndStatusBar, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT / 2)];
     self.mapView.mapType = BMKMapTypeStandard;
     [self.view addSubview:self.mapView];
     
@@ -48,13 +48,13 @@
     [self startLocation];
     
     //设置搜索输入框
-    self.textF = [[UITextField alloc]initWithFrame:CGRectMake(0, self.mapView.maxY - HeightForNagivationBarAndStatusBar, UI_SCREEN_WIDTH, 40)];
+    self.textF = [[UITextField alloc]initWithFrame:CGRectMake(0, self.mapView.maxY , UI_SCREEN_WIDTH, 40)];
     self.textF.backgroundColor = [UIColor whiteColor];
     self.textF.placeholder = @"请输入搜索内容";
     self.textF.delegate = self;
     [self.view addSubview:self.textF];
     //搜索结果列表
-    self.tab = [[UITableView alloc]initWithFrame:CGRectMake(0, self.textF.maxY, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT - HeightForNagivationBarAndStatusBar - HOME_INDICATOR_HEIGHT - self.textF.maxY)];
+    self.tab = [[UITableView alloc]initWithFrame:CGRectMake(0, self.textF.maxY, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT  - HOME_INDICATOR_HEIGHT - self.textF.maxY)];
     self.tab.delegate = self;
     self.tab.dataSource = self;
     [self.view addSubview:self.tab];

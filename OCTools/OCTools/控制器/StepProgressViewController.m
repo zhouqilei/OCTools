@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    StepProgressView *view = [[StepProgressView alloc]initWithFrame:CGRectMake(10, 10, UI_SCREEN_WIDTH - 20, 40) targetNum:5];
+    StepProgressView *view = [[StepProgressView alloc]initWithFrame:CGRectMake(10, 10 + HeightForNagivationBarAndStatusBar, UI_SCREEN_WIDTH - 20, 40) targetNum:5];
     [view setProgress:4];
     [self.view addSubview:view];
 }

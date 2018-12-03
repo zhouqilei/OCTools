@@ -19,11 +19,11 @@
     // Do any additional setup after loading the view.
     self.delegate = self;
     //设置navigationBar颜色
-    [self.navigationBar setBackgroundImage:[UIImage imageWithColor:App_Main_Color rect:CGRectMake(0, 0, UI_SCREEN_WIDTH, HeightForNagivationBarAndStatusBar)] forBarMetrics:UIBarMetricsDefault];
-    //毛玻璃效果
-    self.navigationBar.translucent = NO;
-    //设置标题的样式
-    [self.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
+//    [self.navigationBar setBackgroundImage:[UIImage imageWithColor:App_Main_Color rect:CGRectMake(0, 0, UI_SCREEN_WIDTH, HeightForNagivationBarAndStatusBar)] forBarMetrics:UIBarMetricsDefault];
+//    //毛玻璃效果
+//    self.navigationBar.translucent = NO;
+//    //设置标题的样式
+//    [self.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
 }
 #pragma mark - 控制器视图将要出现时
 - (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated {

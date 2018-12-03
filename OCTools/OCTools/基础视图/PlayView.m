@@ -13,8 +13,7 @@
 @interface PlayView ()
 /**安放常用控件的view*/
 @property (nonatomic, strong)UIView *toolView;
-/**播放器*/
-@property (nonatomic, strong)AVPlayer *player;
+
 /**进度条*/
 @property (nonatomic, strong)UISlider *progress;
 /**播放暂停按钮*/
@@ -22,8 +21,7 @@
 
 /**播放的状态*/
 @property (nonatomic, assign)BOOL isPlay;
-/**同步屏幕刷新计时器*/
-@property (nonatomic, strong)CADisplayLink *link;
+
 /**当前的播放状态*/
 @property (nonatomic, assign)AVPlayerItemStatus status;
 /**当前缓冲的时间*/
@@ -39,12 +37,6 @@
         self.loadingView.hidden = YES;
     }
     return self;
-}
-- (void)dealloc {
-    //移除计时器
-    [self.link invalidate];
-    [self.player.currentItem removeObserver:self forKeyPath:@"status"];
-    [self.player.currentItem removeObserver:self forKeyPath:@"loadedTimeRanges"];
 }
 #pragma mark - 设置播放网址
 - (void)playWith:(NSURL *)url {

@@ -9,7 +9,7 @@
 #import "PlayViewController.h"
 #import "PlayView.h"
 @interface PlayViewController ()
-
+@property (nonatomic, strong)PlayView *playV;
 @end
 
 @implementation PlayViewController
@@ -17,11 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    PlayView *playV = [[PlayView alloc]initWithFrame:CGRectMake(0, 0, UI_SCREEN_WIDTH, 250)];
-    [playV playWith:[NSURL URLWithString:@"http://pri-video.v.medlinker.net/5595b16d-72bc-4fcb-bef2-c01327abeab3/10.m3u8"]];
-    [self.view addSubview:playV];
+    self.playV = [[PlayView alloc]initWithFrame:CGRectMake(0, HeightForNagivationBarAndStatusBar, UI_SCREEN_WIDTH, 250)];
+    [self.playV playWith:[NSURL URLWithString:@"http://pri-video.v.medlinker.net/5595b16d-72bc-4fcb-bef2-c01327abeab3/10.m3u8"]];
+    [self.view addSubview:self.playV];
 }
-
+- (void)dealloc {
+    [self.playV.link invalidate];
+    [self.playV.player.currentItem removeObserver:self.playV forKeyPath:@"status"];
+    [self.playV.player.currentItem removeObserver:self.playV forKeyPath:@"loadedTimeRanges"];
+}
 /*
 #pragma mark - Navigation
 

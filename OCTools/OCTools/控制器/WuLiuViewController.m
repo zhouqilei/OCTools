@@ -24,7 +24,7 @@
     WuLiuInfo *wuliu3 = [[WuLiuInfo alloc]initWithMessage:@"【金华市】快件已从金华转运中心发出，准备发往温州转运中心" time:@"2018-11-15 22:21" position:WuLiuPositionBottom];
     self.data = @[wuliu1,wuliu2,wuliu3];
     
-    self.tableV = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT - HeightForNagivationBarAndStatusBar - HOME_INDICATOR_HEIGHT) style:UITableViewStylePlain];
+    self.tableV = [[UITableView alloc]initWithFrame:CGRectMake(0, HeightForNagivationBarAndStatusBar, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT - HeightForNagivationBarAndStatusBar - HOME_INDICATOR_HEIGHT) style:UITableViewStylePlain];
     self.tableV.delegate = self;
     self.tableV.dataSource = self;
     self.tableV.separatorStyle = UITableViewCellSeparatorStyleNone;

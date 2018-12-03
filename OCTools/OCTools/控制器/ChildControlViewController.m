@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.scrollV = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT - HeightForNagivationBarAndStatusBar - HOME_INDICATOR_HEIGHT)];
+    self.scrollV = [[UIScrollView alloc]initWithFrame:CGRectMake(0, HeightForNagivationBarAndStatusBar, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT - HeightForNagivationBarAndStatusBar - HOME_INDICATOR_HEIGHT)];
     [self.view addSubview:self.scrollV];
     /**实现UILabel边距控制*/
     CustomLabel *label = [[CustomLabel alloc]initWithFrame:CGRectMake(0, 0, UI_SCREEN_WIDTH, 40)];

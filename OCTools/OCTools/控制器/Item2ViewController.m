@@ -22,6 +22,7 @@
 #import "TagsViewController.h"
 #import "ProAttrSelectView.h"
 #import "PlayViewController.h"
+#import "FlexViewController.h"
 @interface Item2ViewController ()<UITableViewDelegate,UITableViewDataSource,ProAttrSelectViewDelegate>
 @property (nonatomic, strong)BaseTableView *tab;
 @property (nonatomic, strong)NSMutableArray *data;
@@ -36,8 +37,8 @@
     //接收网络变化的通知
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(checkNetworkStatus) name:kReachabilityChangedNotification object:nil];
     
-    self.data = [NSMutableArray arrayWithArray:@[@"网络请求",@"网络状态",@"权限管理",@"继承系统控件的子类控件",@"日历",@"搜索",@"扫一扫",@"折叠cell",@"图片浏览器",@"步骤进度条",@"类似淘宝带有进度线的物流流程",@"简单的悬浮按钮实现",@"标签选择",@"商品购买属性选择弹框",@"简单的视频播放器"]];
-    self.tab = [[BaseTableView alloc]initWithFrame:CGRectMake(0, 0, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT - HeightForNagivationBarAndStatusBar - HOME_INDICATOR_HEIGHT) style:UITableViewStylePlain];
+    self.data = [NSMutableArray arrayWithArray:@[@"网络请求",@"网络状态",@"权限管理",@"继承系统控件的子类控件",@"日历",@"搜索",@"扫一扫",@"折叠cell",@"图片浏览器",@"步骤进度条",@"类似淘宝带有进度线的物流流程",@"简单的悬浮按钮实现",@"标签选择",@"商品购买属性选择弹框",@"简单的视频播放器",@"头部伸缩导航栏透明度渐变"]];
+    self.tab = [[BaseTableView alloc]initWithFrame:CGRectMake(0, HeightForNagivationBarAndStatusBar, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT - HeightForNagivationBarAndStatusBar - HOME_INDICATOR_HEIGHT) style:UITableViewStylePlain];
     self.tab.delegate = self;
     self.tab.dataSource = self;
     [self.view addSubview:self.tab];
@@ -185,6 +186,12 @@
         case 14:
         {
             PlayViewController *vc = [[PlayViewController alloc]init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 15:
+        {
+            FlexViewController *vc = [[FlexViewController alloc]init];
             [self.navigationController pushViewController:vc animated:YES];
         }
         default:

@@ -41,7 +41,7 @@
         layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
         
         
-        _collectionV = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 80, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT - HeightForNagivationBarAndStatusBar - HOME_INDICATOR_HEIGHT - 80) collectionViewLayout:layout];
+        _collectionV = [[UICollectionView alloc]initWithFrame:CGRectMake(0,HeightForNagivationBarAndStatusBar + 80, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT - HeightForNagivationBarAndStatusBar - HOME_INDICATOR_HEIGHT - 80) collectionViewLayout:layout];
         _collectionV.delegate = self;
         _collectionV.dataSource = self;
         _collectionV.backgroundColor = [UIColor whiteColor];
@@ -63,11 +63,11 @@
     Calendar *next = [[Calendar alloc]initWithDate:[self getNextMonthFristDayDateFromDate:self.currentCalendar.date]];
     self.data = [NSMutableArray arrayWithObjects:prev,self.currentCalendar,next, nil];
     //添加星期条
-    UIView *weekView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, UI_SCREEN_WIDTH, 40)];
+    UIView *weekView = [[UIView alloc]initWithFrame:CGRectMake(0, HeightForNagivationBarAndStatusBar, UI_SCREEN_WIDTH, 40)];
     weekView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:weekView];
     //添加日期条
-    UIView *dateView = [[UIView alloc]initWithFrame:CGRectMake(0, 40, UI_SCREEN_WIDTH, 40)];
+    UIView *dateView = [[UIView alloc]initWithFrame:CGRectMake(0, 40 + HeightForNagivationBarAndStatusBar, UI_SCREEN_WIDTH, 40)];
     dateView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:dateView];
     [dateView addSubview:self.dateL];

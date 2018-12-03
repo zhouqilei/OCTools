@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    TagsView *tagsV = [[TagsView alloc]initWithFrame:CGRectMake(0, 0, UI_SCREEN_WIDTH, 0) tagsArray:@[@"龙与地下城，初版（Dungeons &amp; Dragons），TSR公司发布",@"o 龙与地下城（基本，又称BD& D）",@"*龙与地下城起源版（Origin D&D，“0E”）",@" 龙与地下城，第三版",@"龙与地下城精华版",@"龙与地下城，第五版（Dungeons & Dragons 5th Edtion）"]];
+    TagsView *tagsV = [[TagsView alloc]initWithFrame:CGRectMake(0, HeightForNagivationBarAndStatusBar, UI_SCREEN_WIDTH, 0) tagsArray:@[@"龙与地下城，初版（Dungeons &amp; Dragons），TSR公司发布",@"o 龙与地下城（基本，又称BD& D）",@"*龙与地下城起源版（Origin D&D，“0E”）",@" 龙与地下城，第三版",@"龙与地下城精华版",@"龙与地下城，第五版（Dungeons & Dragons 5th Edtion）"]];
     tagsV.canMultipleSelection = YES;
     tagsV.delegate = self;
     [self.view addSubview:tagsV];

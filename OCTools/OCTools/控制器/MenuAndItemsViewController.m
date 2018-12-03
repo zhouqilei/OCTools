@@ -28,7 +28,7 @@
   @{@"7":@[@"7.1",@"7.2",@"7.3",@"7.4",@"7.5",@"7.6",@"7.7",@"7.8"]},
   @{@"8":@[@"8.1",@"8.2",@"8.3",@"8.4",@"8.5",@"8.6",@"8.7",@"8.8"]}
   ];
-    MenuAndItemsView *view = [[MenuAndItemsView alloc]initWithFrame:CGRectMake(0, 0, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT - HeightForNagivationBarAndStatusBar - HOME_INDICATOR_HEIGHT) andMenu:menuArray items:itemsArray];
+    MenuAndItemsView *view = [[MenuAndItemsView alloc]initWithFrame:CGRectMake(0, HeightForNagivationBarAndStatusBar, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT - HeightForNagivationBarAndStatusBar - HOME_INDICATOR_HEIGHT) andMenu:menuArray items:itemsArray];
     view.delegate = self;
     [self.view addSubview:view];
 }

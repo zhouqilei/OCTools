@@ -97,7 +97,8 @@
     item2.title = @"item2";
 
     self.window.rootViewController = self.tabBarController;
-    
+    //设置nav
+    [self setNavBar];
     //添加网络变化的监听
     self.coon = [Reachability reachabilityForInternetConnection];
     [self.coon startNotifier];
@@ -113,6 +114,26 @@
         NSLog(@"百度地图开启失败");
     }
     return YES;
+}
+//设置navigationBar
+- (void)setNavBar {
+    //初始化
+    [WRNavigationBar wr_widely];
+    //设置黑名单，不使用的控制器
+    [WRNavigationBar wr_setBlacklist:@[@"TZPhotoPickerController",
+                                       @"TZGifPhotoPreviewController",
+                                       @"TZAlbumPickerController",
+                                       @"TZPhotoPreviewController",
+                                       @"TZVideoPlayerController",
+                                       @"SearchViewController"]];
+    //设置默认的背景颜色
+    [WRNavigationBar wr_setDefaultNavBarBarTintColor:App_Main_Color];
+    //设置按钮默认颜色
+    [WRNavigationBar wr_setDefaultNavBarTintColor:[UIColor whiteColor]];
+    //设置标题默认颜色
+    [WRNavigationBar wr_setDefaultNavBarTitleColor:[UIColor whiteColor]];
+    //设置底部分割线隐藏
+    [WRNavigationBar wr_setDefaultNavBarShadowImageHidden:YES];
 }
 
 - (void)set3DTouch{

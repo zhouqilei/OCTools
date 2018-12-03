@@ -30,7 +30,7 @@
 - (void)textFieldDidBeginEditing:(UITextField *)textField {
     [textField resignFirstResponder];
      BaseSearchViewController *vc = [[BaseSearchViewController alloc]init];
-     BaseNavigationController *na = [[BaseNavigationController alloc]initWithRootViewController:vc];
+     UINavigationController *na = [[UINavigationController alloc]initWithRootViewController:vc];
     [self presentViewController:na animated:NO completion:nil];
 }
 

@@ -49,6 +49,10 @@
 #import "UIView+Extension.h"
 #import "NSObject+Extension.h"
 #import "UITableView+Extension.h"
+//#import "UINavigationBar+Extension.h"
+//#import "UINavigationController+Extension.h"
+
+#import "WRNavigationBar.h"
 
 
 #import "JSONModel.h"
