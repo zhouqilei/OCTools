@@ -148,6 +148,7 @@
 		CB6FA01321928D2F00352C60 /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6FA01221928D2F00352C60 /* RequestManager.m */; };
 		CB96E40521B52128000CB400 /* WRCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CB96E40221B52128000CB400 /* WRCustomNavigationBar.m */; };
 		CB96E40621B52128000CB400 /* WRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CB96E40421B52128000CB400 /* WRNavigationBar.m */; };
+		CB96E40921B62016000CB400 /* AddToCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB96E40821B62016000CB400 /* AddToCarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -470,6 +471,8 @@
 		CB96E40221B52128000CB400 /* WRCustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRCustomNavigationBar.m; sourceTree = "<group>"; };
 		CB96E40321B52128000CB400 /* WRNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRNavigationBar.h; sourceTree = "<group>"; };
 		CB96E40421B52128000CB400 /* WRNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRNavigationBar.m; sourceTree = "<group>"; };
+		CB96E40721B62016000CB400 /* AddToCarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddToCarViewController.h; sourceTree = "<group>"; };
+		CB96E40821B62016000CB400 /* AddToCarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddToCarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1014,6 +1017,8 @@
 				CB642BDB21AFB708003C965D /* PlayViewController.m */,
 				CB642BDD21B4C97C003C965D /* FlexViewController.h */,
 				CB642BDE21B4C97C003C965D /* FlexViewController.m */,
+				CB96E40721B62016000CB400 /* AddToCarViewController.h */,
+				CB96E40821B62016000CB400 /* AddToCarViewController.m */,
 			);
 			path = "控制器";
 			sourceTree = "<group>";
@@ -1273,6 +1278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB96E40921B62016000CB400 /* AddToCarViewController.m in Sources */,
 				3027F853219AA26D008E5A82 /* JSONAPI.m in Sources */,
 				CB642BD021ABCE39003C965D /* TagsViewController.m in Sources */,
 				CB50EE3B21A3D51E00485628 /* ScanViewController.m in Sources */,

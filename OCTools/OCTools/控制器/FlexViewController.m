@@ -25,7 +25,7 @@
     [self wr_setNavBarBackgroundAlpha:0];
     //设置图片
     self.headerV = [[UIImageView alloc]initWithFrame:CGRectMake(0, - UI_SCREEN_HEIGHT / 3 - HeightForNagivationBarAndStatusBar, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT / 3)];
-    self.headerV.image = [UIImage imageNamed:@"icon-bj"];
+    self.headerV.image = [UIImage imageNamed:@"Intro_Screen_1"];
     self.headerV.contentMode = UIViewContentModeScaleAspectFill;
     self.headerV.layer.masksToBounds = YES;
     self.headerV.autoresizesSubviews = YES;
