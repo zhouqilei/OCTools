@@ -149,6 +149,8 @@
 		CB96E40521B52128000CB400 /* WRCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CB96E40221B52128000CB400 /* WRCustomNavigationBar.m */; };
 		CB96E40621B52128000CB400 /* WRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CB96E40421B52128000CB400 /* WRNavigationBar.m */; };
 		CB96E40921B62016000CB400 /* AddToCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB96E40821B62016000CB400 /* AddToCarViewController.m */; };
+		CB96E40C21B76AD0000CB400 /* WaterFallCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CB96E40B21B76AD0000CB400 /* WaterFallCollectionViewFlowLayout.m */; };
+		CB96E40F21B7A331000CB400 /* WaterFallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB96E40E21B7A331000CB400 /* WaterFallViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -473,6 +475,10 @@
 		CB96E40421B52128000CB400 /* WRNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRNavigationBar.m; sourceTree = "<group>"; };
 		CB96E40721B62016000CB400 /* AddToCarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddToCarViewController.h; sourceTree = "<group>"; };
 		CB96E40821B62016000CB400 /* AddToCarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddToCarViewController.m; sourceTree = "<group>"; };
+		CB96E40A21B76AD0000CB400 /* WaterFallCollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterFallCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		CB96E40B21B76AD0000CB400 /* WaterFallCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFallCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		CB96E40D21B7A331000CB400 /* WaterFallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterFallViewController.h; sourceTree = "<group>"; };
+		CB96E40E21B7A331000CB400 /* WaterFallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFallViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -920,6 +926,8 @@
 				CB642BD221AD0AE5003C965D /* ProAttrSelectView.m */,
 				CB642BD721AF8FF4003C965D /* PlayView.h */,
 				CB642BD821AF8FF4003C965D /* PlayView.m */,
+				CB96E40A21B76AD0000CB400 /* WaterFallCollectionViewFlowLayout.h */,
+				CB96E40B21B76AD0000CB400 /* WaterFallCollectionViewFlowLayout.m */,
 			);
 			path = "基础视图";
 			sourceTree = "<group>";
@@ -1019,6 +1027,8 @@
 				CB642BDE21B4C97C003C965D /* FlexViewController.m */,
 				CB96E40721B62016000CB400 /* AddToCarViewController.h */,
 				CB96E40821B62016000CB400 /* AddToCarViewController.m */,
+				CB96E40D21B7A331000CB400 /* WaterFallViewController.h */,
+				CB96E40E21B7A331000CB400 /* WaterFallViewController.m */,
 			);
 			path = "控制器";
 			sourceTree = "<group>";
@@ -1293,6 +1303,7 @@
 				CB642B9221A68663003C965D /* YBImageBrowseCellData.m in Sources */,
 				3027F84A219AA26D008E5A82 /* NSArray+JSONModel.m in Sources */,
 				CB6F9FF72190145400352C60 /* StarRateViewController.m in Sources */,
+				CB96E40F21B7A331000CB400 /* WaterFallViewController.m in Sources */,
 				CB6F9FD0218BEAEA00352C60 /* AddressPickView.m in Sources */,
 				CB642BBA21A68710003C965D /* YYImageCoder.m in Sources */,
 				CB642B9321A68663003C965D /* YBVideoBrowseActionBar.m in Sources */,
@@ -1329,6 +1340,7 @@
 				CB642B8621A68663003C965D /* YBImageBrowserView.m in Sources */,
 				CB50EE11219D1B1400485628 /* FMResultSet.m in Sources */,
 				CB6F9FA9218831C700352C60 /* CustomTabBar.m in Sources */,
+				CB96E40C21B76AD0000CB400 /* WaterFallCollectionViewFlowLayout.m in Sources */,
 				3027F852219AA26D008E5A82 /* JSONHTTPClient.m in Sources */,
 				CB50EE4121A506B500485628 /* NSObject+Extension.m in Sources */,
 				CB6F9FF4218FF28200352C60 /* StarRateView.m in Sources */,
