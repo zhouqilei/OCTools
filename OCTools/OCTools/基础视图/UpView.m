@@ -20,8 +20,7 @@
     self.frame = CGRectMake(0, 0, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT - HOME_INDICATOR_HEIGHT);
     self.backgroundColor =  RGBA(0, 0, 0, 0.4);
     self.userInteractionEnabled = YES;
-    [self addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dismiss)]];
-    
+    [self addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)]];
     [self addSubview:self.contentView];
 }
 #pragma makr - 懒加载内容视图
@@ -42,6 +41,13 @@
     [UIView animateWithDuration:0.3 animations:^{
         [self.contentView setFrame:CGRectMake(0, UI_SCREEN_HEIGHT - HOME_INDICATOR_HEIGHT - self.contentHeight, UI_SCREEN_WIDTH, self.contentHeight)];
     }];
+}
+- (void)tapAction:(UITapGestureRecognizer *)tap {
+    if (CGRectContainsPoint(self.contentView.frame, [tap locationInView:self])) {
+        
+    }else {
+        [self dismiss];
+    }
 }
 #pragma mark - 隐藏视图
 - (void)dismiss {

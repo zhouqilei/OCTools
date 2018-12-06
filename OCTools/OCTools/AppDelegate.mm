@@ -12,6 +12,7 @@
 #import "Item2ViewController.h"
 #import "GuidePageViewController.h"
 #import "AdViewController.h"
+#import "PasswordInputView.h"
 @interface AppDelegate ()<BMKGeneralDelegate>
 
 @end
@@ -149,6 +150,28 @@
     if ([shortcutItem.localizedTitle isEqualToString:@"扫一扫"]) {
         NSLog(@"点击了扫一扫");
     }
+}
+#pragma mark - 在某些页面禁用第三方键盘
+- (BOOL)application:(UIApplication *)application shouldAllowExtensionPointIdentifier:(UIApplicationExtensionPointIdentifier)extensionPointIdentifier {
+    //获取当前视图控制器
+//    UIViewController *result = self.window.rootViewController;
+//    while (result.presentedViewController) {
+//        result = result.presentedViewController;
+//    }
+//    if ([result isKindOfClass:[BaseTabBarController class]]) {
+//        result = [(BaseTabBarController *)result selectedViewController];
+//    }
+//    if ([result isKindOfClass:[BaseNavigationController class]]) {
+//        result = [(BaseNavigationController *)result topViewController];
+//    }
+    UIWindow *window = [UIApplication sharedApplication].keyWindow;
+    for (UIView *view  in window.subviews) {
+        if ([view isKindOfClass:[PasswordInputView class]]) {
+            return NO;
+        }
+    }
+    
+    return YES;
 }
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

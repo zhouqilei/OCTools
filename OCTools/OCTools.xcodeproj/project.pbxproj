@@ -151,6 +151,7 @@
 		CB96E40921B62016000CB400 /* AddToCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB96E40821B62016000CB400 /* AddToCarViewController.m */; };
 		CB96E40C21B76AD0000CB400 /* WaterFallCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CB96E40B21B76AD0000CB400 /* WaterFallCollectionViewFlowLayout.m */; };
 		CB96E40F21B7A331000CB400 /* WaterFallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB96E40E21B7A331000CB400 /* WaterFallViewController.m */; };
+		CB96E41221B7B44A000CB400 /* PasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB96E41121B7B44A000CB400 /* PasswordInputView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -479,6 +480,8 @@
 		CB96E40B21B76AD0000CB400 /* WaterFallCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFallCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		CB96E40D21B7A331000CB400 /* WaterFallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterFallViewController.h; sourceTree = "<group>"; };
 		CB96E40E21B7A331000CB400 /* WaterFallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFallViewController.m; sourceTree = "<group>"; };
+		CB96E41021B7B44A000CB400 /* PasswordInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordInputView.h; sourceTree = "<group>"; };
+		CB96E41121B7B44A000CB400 /* PasswordInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordInputView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -928,6 +931,8 @@
 				CB642BD821AF8FF4003C965D /* PlayView.m */,
 				CB96E40A21B76AD0000CB400 /* WaterFallCollectionViewFlowLayout.h */,
 				CB96E40B21B76AD0000CB400 /* WaterFallCollectionViewFlowLayout.m */,
+				CB96E41021B7B44A000CB400 /* PasswordInputView.h */,
+				CB96E41121B7B44A000CB400 /* PasswordInputView.m */,
 			);
 			path = "基础视图";
 			sourceTree = "<group>";
@@ -1312,6 +1317,7 @@
 				CB642BDF21B4C97C003C965D /* FlexViewController.m in Sources */,
 				CB6FA003219034AF00352C60 /* ScrollMenuViewController.m in Sources */,
 				CB6F9FEC218FEB4700352C60 /* SDCollectionViewCell.m in Sources */,
+				CB96E41221B7B44A000CB400 /* PasswordInputView.m in Sources */,
 				3027F84E219AA26D008E5A82 /* JSONModelError.m in Sources */,
 				CB642B8A21A68663003C965D /* YBIBGestureInteractionProfile.m in Sources */,
 				CB642BC721A791A5003C965D /* WuLiuViewController.m in Sources */,
