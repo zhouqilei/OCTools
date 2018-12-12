@@ -89,7 +89,7 @@
         return;
     }
     if (currentRate > self.numberOfStars) {
-        NSLog(@"评分不能超过星星数量")
+        NSLog(@"评分不能超过星星数量");
     }
     if (currentRate < 0) {
         NSLog(@"评分不能为负数");

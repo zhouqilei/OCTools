@@ -114,6 +114,8 @@
     if (!ret) {
         NSLog(@"百度地图开启失败");
     }
+    
+    
     return YES;
 }
 //设置navigationBar

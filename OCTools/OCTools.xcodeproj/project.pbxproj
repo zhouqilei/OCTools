@@ -28,6 +28,9 @@
 		3027F872219AA4CE008E5A82 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3027F86E219AA4CE008E5A82 /* UserInfo.m */; };
 		3027F873219AA4CE008E5A82 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3027F871219AA4CE008E5A82 /* Singleton.m */; };
 		85D78003C77D1D7FC58D832F /* libPods-OCTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6108B33AF8512E8E33C25C32 /* libPods-OCTools.a */; };
+		CB061A7121B9139200A4E03F /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB061A7021B9139200A4E03F /* TestViewController.m */; };
+		CB061F2721C0F24E00A4E03F /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB061F2621C0F24E00A4E03F /* TimerViewController.m */; };
+		CB061F2A21C0F27600A4E03F /* OMTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = CB061F2921C0F27600A4E03F /* OMTimer.m */; };
 		CB50EDB92193D2E400485628 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDB82193D2E400485628 /* Reachability.m */; };
 		CB50EDBB2193D33700485628 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB50EDBA2193D33700485628 /* SystemConfiguration.framework */; };
 		CB50EDBE21940EAA00485628 /* MenuAndItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50EDBD21940EAA00485628 /* MenuAndItemsView.m */; };
@@ -218,6 +221,14 @@
 		6108B33AF8512E8E33C25C32 /* libPods-OCTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		682E95383E02A4D49C1BC58B /* Pods-OCTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCTools/Pods-OCTools.debug.xcconfig"; sourceTree = "<group>"; };
 		C1C1B2A14FF4B056BB8CE8C3 /* Pods-OCTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCTools/Pods-OCTools.release.xcconfig"; sourceTree = "<group>"; };
+		CB061A6F21B9139200A4E03F /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		CB061A7021B9139200A4E03F /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		CB061A7621BA1B9000A4E03F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CB061A7E21BA1E2E00A4E03F /* RevealServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RevealServer.framework; path = "Pods/Reveal-SDK/RevealServer-17/iOS/RevealServer.framework"; sourceTree = "<group>"; };
+		CB061F2521C0F24D00A4E03F /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		CB061F2621C0F24E00A4E03F /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
+		CB061F2821C0F27600A4E03F /* OMTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMTimer.h; sourceTree = "<group>"; };
+		CB061F2921C0F27600A4E03F /* OMTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMTimer.m; sourceTree = "<group>"; };
 		CB50EDB72193D2E400485628 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		CB50EDB82193D2E400485628 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		CB50EDBA2193D33700485628 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -348,18 +359,6 @@
 		CB642B7F21A68663003C965D /* YBImageBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YBImageBrowser.bundle; sourceTree = "<group>"; };
 		CB642B8021A68663003C965D /* YBImageBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBImageBrowser.h; sourceTree = "<group>"; };
 		CB642B8121A68663003C965D /* YBImageBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBImageBrowser.m; sourceTree = "<group>"; };
-		CB642B9A21A686E6003C965D /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		CB642B9B21A686E6003C965D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		CB642B9D21A686E6003C965D /* YYAnimatedImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYAnimatedImageView.h; sourceTree = "<group>"; };
-		CB642B9E21A686E6003C965D /* YYAnimatedImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYAnimatedImageView.m; sourceTree = "<group>"; };
-		CB642B9F21A686E6003C965D /* YYFrameImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYFrameImage.h; sourceTree = "<group>"; };
-		CB642BA021A686E6003C965D /* YYFrameImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYFrameImage.m; sourceTree = "<group>"; };
-		CB642BA121A686E6003C965D /* YYImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYImage.h; sourceTree = "<group>"; };
-		CB642BA221A686E6003C965D /* YYImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYImage.m; sourceTree = "<group>"; };
-		CB642BA321A686E6003C965D /* YYImageCoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYImageCoder.h; sourceTree = "<group>"; };
-		CB642BA421A686E6003C965D /* YYImageCoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYImageCoder.m; sourceTree = "<group>"; };
-		CB642BA521A686E6003C965D /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYSpriteSheetImage.h; sourceTree = "<group>"; };
-		CB642BA621A686E6003C965D /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYSpriteSheetImage.m; sourceTree = "<group>"; };
 		CB642BA821A68710003C965D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CB642BA921A68710003C965D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CB642BAB21A68710003C965D /* YYAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAnimatedImageView.h; sourceTree = "<group>"; };
@@ -617,7 +616,8 @@
 		B11A92B9112BD392F59A4821 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CB642B9921A686E6003C965D /* YYImage */,
+				CB061A7E21BA1E2E00A4E03F /* RevealServer.framework */,
+				CB061A7621BA1B9000A4E03F /* libz.tbd */,
 				CB50EDEE219BBD8700485628 /* libcrypto.a */,
 				CB50EDEF219BBD8700485628 /* libssl.a */,
 				CB50EDE02199670B00485628 /* Security.framework */,
@@ -765,34 +765,6 @@
 				CB642B7E21A68663003C965D /* YBVideoBrowseTopBar.m */,
 			);
 			path = VideoBrowse;
-			sourceTree = "<group>";
-		};
-		CB642B9921A686E6003C965D /* YYImage */ = {
-			isa = PBXGroup;
-			children = (
-				CB642B9A21A686E6003C965D /* LICENSE */,
-				CB642B9B21A686E6003C965D /* README.md */,
-				CB642B9C21A686E6003C965D /* YYImage */,
-			);
-			name = YYImage;
-			path = "../../YBImageBrowser-master/Pods/YYImage";
-			sourceTree = "<group>";
-		};
-		CB642B9C21A686E6003C965D /* YYImage */ = {
-			isa = PBXGroup;
-			children = (
-				CB642B9D21A686E6003C965D /* YYAnimatedImageView.h */,
-				CB642B9E21A686E6003C965D /* YYAnimatedImageView.m */,
-				CB642B9F21A686E6003C965D /* YYFrameImage.h */,
-				CB642BA021A686E6003C965D /* YYFrameImage.m */,
-				CB642BA121A686E6003C965D /* YYImage.h */,
-				CB642BA221A686E6003C965D /* YYImage.m */,
-				CB642BA321A686E6003C965D /* YYImageCoder.h */,
-				CB642BA421A686E6003C965D /* YYImageCoder.m */,
-				CB642BA521A686E6003C965D /* YYSpriteSheetImage.h */,
-				CB642BA621A686E6003C965D /* YYSpriteSheetImage.m */,
-			);
-			path = YYImage;
 			sourceTree = "<group>";
 		};
 		CB642BA721A68710003C965D /* YYImage */ = {
@@ -986,6 +958,8 @@
 		CB6F9FB7218958AD00352C60 /* 控制器 */ = {
 			isa = PBXGroup;
 			children = (
+				CB061F2521C0F24D00A4E03F /* TimerViewController.h */,
+				CB061F2621C0F24E00A4E03F /* TimerViewController.m */,
 				CB642BC521A791A5003C965D /* WuLiuViewController.h */,
 				CB642BC621A791A5003C965D /* WuLiuViewController.m */,
 				CB50EDE6219ABE3200485628 /* AMapViewController.h */,
@@ -1034,6 +1008,8 @@
 				CB96E40821B62016000CB400 /* AddToCarViewController.m */,
 				CB96E40D21B7A331000CB400 /* WaterFallViewController.h */,
 				CB96E40E21B7A331000CB400 /* WaterFallViewController.m */,
+				CB061A6F21B9139200A4E03F /* TestViewController.h */,
+				CB061A7021B9139200A4E03F /* TestViewController.m */,
 			);
 			path = "控制器";
 			sourceTree = "<group>";
@@ -1083,6 +1059,8 @@
 		CB6FA01021928D0200352C60 /* 管理类 */ = {
 			isa = PBXGroup;
 			children = (
+				CB061F2821C0F27600A4E03F /* OMTimer.h */,
+				CB061F2921C0F27600A4E03F /* OMTimer.m */,
 				CB50EE12219D1B6500485628 /* PreferenceManager.h */,
 				CB50EE13219D1B6500485628 /* PreferenceManager.m */,
 				3027F870219AA4CE008E5A82 /* Singleton.h */,
@@ -1179,6 +1157,11 @@
 				TargetAttributes = {
 					CB6F9F5E2186A6BC00352C60 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					CB6F9F762186A6C700352C60 = {
 						CreatedOnToolsVersion = 10.0;
@@ -1323,6 +1306,7 @@
 				CB642BC721A791A5003C965D /* WuLiuViewController.m in Sources */,
 				CB6F9FC0218A83B800352C60 /* BaseTableView.m in Sources */,
 				CB642B8421A68663003C965D /* YBImageBrowserTipView.m in Sources */,
+				CB061A7121B9139200A4E03F /* TestViewController.m in Sources */,
 				3027F872219AA4CE008E5A82 /* UserInfo.m in Sources */,
 				3027F866219AA483008E5A82 /* TRClassMethod.m in Sources */,
 				CB6F9F722186A6C700352C60 /* main.m in Sources */,
@@ -1338,6 +1322,7 @@
 				3027F850219AA26D008E5A82 /* JSONModelArray.m in Sources */,
 				CB642BCA21A7D52C003C965D /* SuspensionView.m in Sources */,
 				CB50EDF8219BF01700485628 /* CustomLabel.m in Sources */,
+				CB061F2721C0F24E00A4E03F /* TimerViewController.m in Sources */,
 				CB50EDDF2199650400485628 /* NSString+Extension.m in Sources */,
 				3027F86C219AA48E008E5A82 /* TKAlertCenter.m in Sources */,
 				CB6F9FE9218FEB4700352C60 /* TAAnimatedDotView.m in Sources */,
@@ -1366,6 +1351,7 @@
 				CB642B8321A68663003C965D /* YBImageBrowserSheetView.m in Sources */,
 				CB6FA01321928D2F00352C60 /* RequestManager.m in Sources */,
 				CB642BB821A68710003C965D /* YYFrameImage.m in Sources */,
+				CB061F2A21C0F27600A4E03F /* OMTimer.m in Sources */,
 				CB50EDFE219BF46A00485628 /* CustomTextField.m in Sources */,
 				CB6F9FB62189526800352C60 /* UIColor+Extension.m in Sources */,
 				CB50EE4421A52D9000485628 /* UITableView+Extension.m in Sources */,
@@ -1598,6 +1584,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F3YHTYFNE3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods/Reveal-SDK/RevealServer-17/iOS",
+				);
 				GCC_INPUT_FILETYPE = automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/OCTools/PrefixHeader.pch";
@@ -1611,8 +1602,72 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/BaiduMapKit/BaiduMapKit/thirdlibs",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"IQKeyboardManager\"",
+					"-l\"MJRefresh\"",
+					"-l\"SDWebImage\"",
+					"-l\"TZImagePickerController\"",
+					"-l\"c++\"",
+					"-l\"crypto\"",
+					"-l\"sqlite3.0\"",
+					"-l\"ssl\"",
+					"-l\"stdc++.6.0.9\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AMapFoundationKit\"",
+					"-framework",
+					"\"AMapLocationKit\"",
+					"-framework",
+					"\"AMapSearchKit\"",
+					"-framework",
+					"\"BaiduMapAPI_Base\"",
+					"-framework",
+					"\"BaiduMapAPI_Cloud\"",
+					"-framework",
+					"\"BaiduMapAPI_Location\"",
+					"-framework",
+					"\"BaiduMapAPI_Map\"",
+					"-framework",
+					"\"BaiduMapAPI_Radar\"",
+					"-framework",
+					"\"BaiduMapAPI_Search\"",
+					"-framework",
+					"\"BaiduMapAPI_Utils\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"ExternalAccessory\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MAMapKit\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"Photos\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zql.TestDemo.OCTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1624,6 +1679,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F3YHTYFNE3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods/Reveal-SDK/RevealServer-17/iOS",
+				);
 				GCC_INPUT_FILETYPE = automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/OCTools/PrefixHeader.pch";
@@ -1636,6 +1696,69 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/BaiduMapKit/BaiduMapKit/thirdlibs",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"IQKeyboardManager\"",
+					"-l\"MJRefresh\"",
+					"-l\"SDWebImage\"",
+					"-l\"TZImagePickerController\"",
+					"-l\"c++\"",
+					"-l\"crypto\"",
+					"-l\"sqlite3.0\"",
+					"-l\"ssl\"",
+					"-l\"stdc++.6.0.9\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AMapFoundationKit\"",
+					"-framework",
+					"\"AMapLocationKit\"",
+					"-framework",
+					"\"AMapSearchKit\"",
+					"-framework",
+					"\"BaiduMapAPI_Base\"",
+					"-framework",
+					"\"BaiduMapAPI_Cloud\"",
+					"-framework",
+					"\"BaiduMapAPI_Location\"",
+					"-framework",
+					"\"BaiduMapAPI_Map\"",
+					"-framework",
+					"\"BaiduMapAPI_Radar\"",
+					"-framework",
+					"\"BaiduMapAPI_Search\"",
+					"-framework",
+					"\"BaiduMapAPI_Utils\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"ExternalAccessory\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MAMapKit\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"Photos\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zql.TestDemo.OCTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";

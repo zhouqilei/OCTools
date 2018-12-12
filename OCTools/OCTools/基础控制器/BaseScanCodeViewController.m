@@ -51,14 +51,16 @@
     CGMutablePathRef path = CGPathCreateMutable();
     CGPathAddRect(path, nil, cropRect);
     CGPathAddRect(path, nil, self.view.bounds);
-    
+
     [cropLayer setFillRule:kCAFillRuleEvenOdd];
     [cropLayer setPath:path];
     [cropLayer setFillColor:[UIColor blackColor].CGColor];
     [cropLayer setOpacity:0.6];
     [cropLayer setNeedsDisplay];
-    
+
     [self.view.layer addSublayer:cropLayer];
+    //在CG框架中 所有使用到create函数创建的变量都需要手动销毁
+    CGPathRelease(path);
 }
 //设置相机权限
 - (void)requestCameraAuthorization {

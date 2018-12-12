@@ -29,7 +29,7 @@
     conf.processPool = [[WKProcessPool alloc]init];
     
     //初始化
-    self.webView = [[WKWebView alloc]initWithFrame:CGRectMake(0, 0, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT - HeightForNagivationBarAndStatusBar - HOME_INDICATOR_HEIGHT) configuration:conf];
+    self.webView = [[WKWebView alloc]initWithFrame:CGRectMake(0, HeightForNagivationBarAndStatusBar, UI_SCREEN_WIDTH, UI_SCREEN_HEIGHT - HeightForNagivationBarAndStatusBar - HOME_INDICATOR_HEIGHT) configuration:conf];
     self.webView.backgroundColor = [UIColor whiteColor];
     [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.url]]];
     [self.view addSubview:self.webView];
